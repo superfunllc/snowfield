@@ -1,0 +1,255 @@
+{
+  "$schema": "../schema/snow_fields.schema.json",
+  "dataset_name": "snow_fields",
+  "dataset_version": "2026.04.12",
+  "schema_version": 1,
+  "description": "Canonical Snowpool snow field catalog. This file is the editable source of truth; generated CSV, GeoJSON, and release manifests are derived from it.",
+  "records": [
+    {
+      "catalog_id": "snowpool:us-ca-heavenly",
+      "slug": "us-ca-heavenly",
+      "source": "snowpool_bootstrap",
+      "source_id": "us-ca-heavenly",
+      "name": "Heavenly",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "South Lake Tahoe",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 10067,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": false,
+      "tags": [
+        "current_us_west",
+        "snowpool_bootstrap"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "snowpool_migration",
+          "name": "20260329110000_upsert_canonical_snow_fields.sql",
+          "url": null,
+          "retrieved_at": "2026-04-12",
+          "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-kirkwood",
+      "slug": "us-ca-kirkwood",
+      "source": "snowpool_bootstrap",
+      "source_id": "us-ca-kirkwood",
+      "name": "Kirkwood",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Kirkwood",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 9800,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": false,
+      "tags": [
+        "current_us_west",
+        "snowpool_bootstrap"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "snowpool_migration",
+          "name": "20260329110000_upsert_canonical_snow_fields.sql",
+          "url": null,
+          "retrieved_at": "2026-04-12",
+          "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-northstar",
+      "slug": "us-ca-northstar",
+      "source": "snowpool_bootstrap",
+      "source_id": "us-ca-northstar",
+      "name": "Northstar",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Truckee",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8610,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": false,
+      "tags": [
+        "current_us_west",
+        "snowpool_bootstrap"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "snowpool_migration",
+          "name": "20260329110000_upsert_canonical_snow_fields.sql",
+          "url": null,
+          "retrieved_at": "2026-04-12",
+          "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-palisades-tahoe",
+      "slug": "us-ca-palisades-tahoe",
+      "source": "snowpool_bootstrap",
+      "source_id": "us-ca-palisades-tahoe",
+      "name": "Palisades Tahoe",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Olympic Valley",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 9050,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": false,
+      "tags": [
+        "current_us_west",
+        "snowpool_bootstrap"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "snowpool_migration",
+          "name": "20260329110000_upsert_canonical_snow_fields.sql",
+          "url": null,
+          "retrieved_at": "2026-04-12",
+          "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-alta",
+      "slug": "us-ut-alta",
+      "source": "snowpool_bootstrap",
+      "source_id": "us-ut-alta",
+      "name": "Alta",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Alta",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 10550,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": false,
+      "tags": [
+        "current_us_west",
+        "snowpool_bootstrap"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "snowpool_migration",
+          "name": "20260329110000_upsert_canonical_snow_fields.sql",
+          "url": null,
+          "retrieved_at": "2026-04-12",
+          "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-brighton",
+      "slug": "us-ut-brighton",
+      "source": "snowpool_bootstrap",
+      "source_id": "us-ut-brighton",
+      "name": "Brighton",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Brighton",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 10500,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": false,
+      "tags": [
+        "current_us_west",
+        "snowpool_bootstrap"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "snowpool_migration",
+          "name": "20260329110000_upsert_canonical_snow_fields.sql",
+          "url": null,
+          "retrieved_at": "2026-04-12",
+          "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-snowbird",
+      "slug": "us-ut-snowbird",
+      "source": "snowpool_bootstrap",
+      "source_id": "us-ut-snowbird",
+      "name": "Snowbird",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Snowbird",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 11000,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": false,
+      "tags": [
+        "current_us_west",
+        "snowpool_bootstrap"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "snowpool_migration",
+          "name": "20260329110000_upsert_canonical_snow_fields.sql",
+          "url": null,
+          "retrieved_at": "2026-04-12",
+          "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        }
+      ]
+    }
+  ]
+}
+

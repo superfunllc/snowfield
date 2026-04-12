@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Snowfield Entry"
+  short_description: "Add a validated snowfield dataset record."
+  default_prompt: "Add a new snowfield entry to this repository."

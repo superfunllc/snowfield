@@ -1,0 +1,70 @@
+name: Dataset
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - published
+  workflow_dispatch:
+    inputs:
+      sync_supabase:
+        description: "Optionally sync the generated dataset into Supabase."
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - legacy
+          - catalog
+      variant:
+        description: "Dataset variant to sync when sync_supabase is enabled."
+        required: true
+        default: full
+        type: choice
+        options:
+          - full
+          - local
+
+permissions:
+  contents: write
+
+jobs:
+  dataset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Test CLI
+        run: make test
+
+      - name: Validate dataset
+        run: make validate
+
+      - name: Generate release artifacts
+        run: make export
+
+      - name: Upload dataset artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: snowfield-dataset
+          path: dist/*
+
+      - name: Attach assets to GitHub release
+        if: ${{ github.event_name == 'release' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" dist/* --clobber
+
+      - name: Sync Supabase
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.sync_supabase != 'false' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: go run ./cmd/snowfield sync --schema-mode "${{ inputs.sync_supabase }}" --variant "${{ inputs.variant }}"
