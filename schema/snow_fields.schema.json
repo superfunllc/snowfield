@@ -47,7 +47,7 @@
       "pattern": "^\\d{4}\\.\\d{2}\\.\\d{2}([-.+][A-Za-z0-9_.-]+)?$"
     },
     "schema_version": {
-      "const": 1
+      "const": 2
     },
     "description": {
       "type": "string"
@@ -140,7 +140,7 @@
           "pattern": "^[a-z0-9_.:-]+$",
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]
@@ -151,7 +151,7 @@
           "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]
@@ -182,7 +182,7 @@
           "minLength": 1,
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "legacy",
               "catalog"
@@ -194,7 +194,7 @@
           "pattern": "^[A-Z]{2}$",
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]
@@ -205,7 +205,7 @@
           "minLength": 1,
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]
@@ -236,7 +236,7 @@
           "minLength": 1,
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]
@@ -248,7 +248,7 @@
           "maximum": 90,
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]
@@ -260,7 +260,7 @@
           "maximum": 180,
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]
@@ -272,7 +272,7 @@
           "maximum": 30000,
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "legacy",
               "catalog"
@@ -330,7 +330,7 @@
           "type": "boolean",
           "x-snowfield": {
             "csv": true,
-            "min_json": true,
+            "client_json": true,
             "sync_modes": [
               "catalog"
             ]

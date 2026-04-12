@@ -32,8 +32,8 @@ func Validate(loaded *Loaded) []string {
 	if !datasetVersionPattern.MatchString(dataset.DatasetVersion) {
 		errors = append(errors, "dataset_version: expected YYYY.MM.DD or YYYY.MM.DD-suffix")
 	}
-	if dataset.SchemaVersion != 1 {
-		errors = append(errors, "schema_version: expected 1")
+	if dataset.SchemaVersion != 2 {
+		errors = append(errors, "schema_version: expected 2")
 	}
 	if len(dataset.Records) == 0 {
 		errors = append(errors, "records: expected at least one record")
