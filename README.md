@@ -28,6 +28,40 @@ Generated files are written to `dist/`:
 - `snow_fields.local.min.json`
 - `snow_fields.local.manifest.json`
 
+## Dataset Contract
+
+`data/snow_fields.json` is the editable source of truth. Generated files in `dist/` are release artifacts; generate them with `make export` instead of editing them by hand.
+
+Identity rules:
+
+- `catalog_id` is the permanent repo-owned identity for a snow field.
+- `slug` is the stable app-facing identifier for APIs and clients.
+- `source` plus `source_id` is the import key for source-specific deduplication.
+- Display `name` is not an identity. Names can change and can collide across regions.
+
+Versioning rules:
+
+- Use date-based dataset versions: `YYYY.MM.DD` or `YYYY.MM.DD-suffix`.
+- `schema_version` is separate from `dataset_version`.
+- Bump `schema_version` only when the dataset contract changes in a breaking way.
+
+Required fields are defined by `schema/snow_fields.schema.json` under `$defs.snow_field.required`. The same schema is also the shared field catalog for the Go CLI. Its `x-snowfield` metadata controls:
+
+- CSV export fields
+- minified JSON fields
+- Supabase sync fields by schema mode
+- Supabase conflict keys by schema mode
+- local variant region rules
+
+Coordinates and detailed elevation fields may be `null` during bootstrap. Do not guess them. Add them only when a source has been checked.
+
+Generated variants:
+
+- `full`: all records
+- `local`: current US West subset, derived by region rule
+
+Both variants are generated from the same canonical JSON.
+
 ## Bootstrap Data
 
 The initial records come from Snowpool's current canonical migration-backed list:
@@ -71,7 +105,7 @@ When `snow_fields` changes in Snowpool:
 3. If it is canonical catalog data, add the field once in `schema/snow_fields.schema.json`.
    The schema's `required` list controls required fields; its `x-snowfield` metadata controls CSV export fields, minified JSON fields, Supabase sync columns, conflict keys, and local variant region rules.
 4. Add values for the new field in `data/snow_fields.json`.
-5. Update `docs/DATASET_CONTRACT.md` when the public data contract changes.
+5. Update this README when the public data contract changes.
 6. Update the Go CLI only when the field needs custom validation, transform, or sync behavior that is not covered by the schema metadata.
 7. Bump `schema_version` when the dataset release contract changes in a breaking way.
 8. Regenerate and verify artifacts:
@@ -79,9 +113,7 @@ When `snow_fields` changes in Snowpool:
 ```sh
 make validate
 make export
-go run ./cmd/snowfield sync --dry-run --schema-mode catalog --variant full
+make sync-catalog-dry-run
 ```
 
 If a new DB column is required, make sure the migration provides a default/backfill or the dataset has complete values before running a real sync.
-
-See `docs/DATASET_CONTRACT.md` for the field contract and release model.
