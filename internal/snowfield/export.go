@@ -29,24 +29,24 @@ func Export(loaded *Loaded, outputDir string, generatedAt string) ([]string, err
 
 		csvPath := filepath.Join(outputDir, fmt.Sprintf("snow_fields.%s.csv", variant))
 		geoJSONPath := filepath.Join(outputDir, fmt.Sprintf("snow_fields.%s.geojson", variant))
-		minJSONPath := filepath.Join(outputDir, fmt.Sprintf("snow_fields.%s.min.json", variant))
+		clientJSONPath := filepath.Join(outputDir, fmt.Sprintf("snow_fields.%s.client.json", variant))
 		manifestPath := filepath.Join(outputDir, fmt.Sprintf("snow_fields.%s.manifest.json", variant))
 
 		if err := writeCSV(csvPath, rows, loaded.Catalog.FieldsWithFlag("csv")); err != nil {
 			return nil, err
 		}
-		if err := writeMinJSON(minJSONPath, rows, loaded.Catalog.FieldsWithFlag("min_json")); err != nil {
+		if err := writeClientJSON(clientJSONPath, rows, loaded.Catalog.FieldsWithFlag("client_json")); err != nil {
 			return nil, err
 		}
 		geocodedRowCount, err := writeGeoJSON(geoJSONPath, rows, loaded.Catalog.FieldsWithFlag("csv"))
 		if err != nil {
 			return nil, err
 		}
-		if err := writeManifest(manifestPath, loaded.Dataset, variant, generatedAt, len(rows), geocodedRowCount, csvPath, geoJSONPath, minJSONPath); err != nil {
+		if err := writeManifest(manifestPath, loaded.Dataset, variant, generatedAt, len(rows), geocodedRowCount, csvPath, geoJSONPath, clientJSONPath); err != nil {
 			return nil, err
 		}
 
-		written = append(written, csvPath, geoJSONPath, minJSONPath, manifestPath)
+		written = append(written, csvPath, geoJSONPath, clientJSONPath, manifestPath)
 	}
 
 	return written, nil
@@ -100,7 +100,7 @@ func writeCSV(path string, rows []Record, fields []string) error {
 	return writer.Error()
 }
 
-func writeMinJSON(path string, rows []Record, fields []string) error {
+func writeClientJSON(path string, rows []Record, fields []string) error {
 	payload := make([]map[string]any, 0, len(rows))
 	for _, row := range rows {
 		values, err := recordMap(row)
@@ -154,7 +154,7 @@ func writeGeoJSON(path string, rows []Record, propertyFields []string) (int, err
 	return len(features), nil
 }
 
-func writeManifest(path string, dataset Dataset, variant string, generatedAt string, rowCount int, geocodedRowCount int, csvPath string, geoJSONPath string, minJSONPath string) error {
+func writeManifest(path string, dataset Dataset, variant string, generatedAt string, rowCount int, geocodedRowCount int, csvPath string, geoJSONPath string, clientJSONPath string) error {
 	csvSHA, err := fileSHA256(csvPath)
 	if err != nil {
 		return err
@@ -163,7 +163,7 @@ func writeManifest(path string, dataset Dataset, variant string, generatedAt str
 	if err != nil {
 		return err
 	}
-	minJSONSHA, err := fileSHA256(minJSONPath)
+	clientJSONSHA, err := fileSHA256(clientJSONPath)
 	if err != nil {
 		return err
 	}
@@ -188,9 +188,9 @@ func writeManifest(path string, dataset Dataset, variant string, generatedAt str
 				"sha256":        geoJSONSHA,
 				"feature_count": geocodedRowCount,
 			},
-			"min_json": map[string]any{
-				"path":      filepath.Base(minJSONPath),
-				"sha256":    minJSONSHA,
+			"client_json": map[string]any{
+				"path":      filepath.Base(clientJSONPath),
+				"sha256":    clientJSONSHA,
 				"row_count": rowCount,
 			},
 		},

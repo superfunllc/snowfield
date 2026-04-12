@@ -6,7 +6,7 @@ This repo follows the Git-first dataset strategy:
 
 - `data/snow_fields.json` is the editable source of truth.
 - Supabase/Postgres is a deployed runtime copy, not the master record.
-- CSV, GeoJSON, minified JSON, and manifests are generated release artifacts.
+- CSV, GeoJSON, client JSON, and manifests are generated release artifacts.
 - CI validates the dataset and uploads generated artifacts.
 - Supabase sync is guarded behind manual workflow input until Snowpool's catalog schema is ready.
 
@@ -21,11 +21,11 @@ Generated files are written to `dist/`:
 
 - `snow_fields.full.csv`
 - `snow_fields.full.geojson`
-- `snow_fields.full.min.json`
+- `snow_fields.full.client.json`
 - `snow_fields.full.manifest.json`
 - `snow_fields.local.csv`
 - `snow_fields.local.geojson`
-- `snow_fields.local.min.json`
+- `snow_fields.local.client.json`
 - `snow_fields.local.manifest.json`
 
 To add a new snowfield entry:
@@ -68,7 +68,7 @@ Versioning rules:
 Required fields are defined by `schema/snow_fields.schema.json` under `$defs.snow_field.required`. The same schema is also the shared field catalog for the Go CLI. Its `x-snowfield` metadata controls:
 
 - CSV export fields
-- minified JSON fields
+- client JSON fields
 - Supabase sync fields by schema mode
 - Supabase conflict keys by schema mode
 - local variant region rules
@@ -123,7 +123,7 @@ When `snow_fields` changes in Snowpool:
 1. Add the Supabase migration in the app repo.
 2. Decide whether the new column is canonical catalog data or app/runtime metadata.
 3. If it is canonical catalog data, add the field once in `schema/snow_fields.schema.json`.
-   The schema's `required` list controls required fields; its `x-snowfield` metadata controls CSV export fields, minified JSON fields, Supabase sync columns, conflict keys, and local variant region rules.
+   The schema's `required` list controls required fields; its `x-snowfield` metadata controls CSV export fields, client JSON fields, Supabase sync columns, conflict keys, and local variant region rules.
 4. Add values for the new field in `data/snow_fields.json`.
 5. Update this README when the public data contract changes.
 6. Update the Go CLI only when the field needs custom validation, transform, or sync behavior that is not covered by the schema metadata.

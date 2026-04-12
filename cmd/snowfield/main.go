@@ -44,7 +44,7 @@ func usage() {
 
 commands:
   validate   validate the canonical dataset
-  export     generate CSV, GeoJSON, minified JSON, and manifest artifacts
+  export     generate CSV, GeoJSON, client JSON, and manifest artifacts
   sync       upsert a dataset variant into Supabase via PostgREST`)
 }
 

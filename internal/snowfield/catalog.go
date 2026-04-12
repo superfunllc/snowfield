@@ -40,9 +40,9 @@ type FieldSchema struct {
 }
 
 type FieldMetadata struct {
-	CSV       bool     `json:"csv"`
-	MinJSON   bool     `json:"min_json"`
-	SyncModes []string `json:"sync_modes"`
+	CSV        bool     `json:"csv"`
+	ClientJSON bool     `json:"client_json"`
+	SyncModes  []string `json:"sync_modes"`
 }
 
 func LoadFieldCatalog(path string) (FieldCatalog, error) {
@@ -79,7 +79,7 @@ func (c FieldCatalog) FieldsWithFlag(flag string) []string {
 		if flag == "csv" && metadata.CSV {
 			fields = append(fields, field)
 		}
-		if flag == "min_json" && metadata.MinJSON {
+		if flag == "client_json" && metadata.ClientJSON {
 			fields = append(fields, field)
 		}
 	}
