@@ -28,6 +28,26 @@ Generated files are written to `dist/`:
 - `snow_fields.local.min.json`
 - `snow_fields.local.manifest.json`
 
+To add a new snowfield entry:
+
+1. Edit `data/snow_fields.json` and add a new object under `records`.
+2. Choose stable identifiers:
+   - `catalog_id`: permanent internal dataset ID, for example `snowpool:us-ca-new-resort`
+   - `slug`: app/API-facing stable slug, for example `us-ca-new-resort`
+   - `source` and `source_id`: import dedupe key
+3. Fill only sourced facts. Leave unchecked coordinates and detailed elevation values as `null`; do not guess.
+4. Keep records sorted by `catalog_id`.
+5. Add at least one source provenance entry with `type`, `name`, `url`, and `retrieved_at`.
+6. Run:
+
+```sh
+make validate
+make export
+make sync-catalog-dry-run
+```
+
+Review the diff before committing. `dist/` is generated and ignored, so new snowfield entries normally only change `data/snow_fields.json`.
+
 ## Dataset Contract
 
 `data/snow_fields.json` is the editable source of truth. Generated files in `dist/` are release artifacts; generate them with `make export` instead of editing them by hand.
