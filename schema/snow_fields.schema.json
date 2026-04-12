@@ -10,6 +10,31 @@
     "records"
   ],
   "additionalProperties": false,
+  "x-snowfield": {
+    "local_regions": {
+      "US": [
+        "AZ",
+        "CA",
+        "CO",
+        "ID",
+        "MT",
+        "NM",
+        "NV",
+        "OR",
+        "UT",
+        "WA",
+        "WY"
+      ]
+    },
+    "sync_modes": {
+      "legacy": {
+        "conflict_column": "name"
+      },
+      "catalog": {
+        "conflict_column": "catalog_id"
+      }
+    }
+  },
   "properties": {
     "$schema": {
       "type": "string"
@@ -112,73 +137,180 @@
       "properties": {
         "catalog_id": {
           "type": "string",
-          "pattern": "^[a-z0-9_.:-]+$"
+          "pattern": "^[a-z0-9_.:-]+$",
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "slug": {
           "type": "string",
-          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "source": {
           "type": "string",
-          "pattern": "^[a-z0-9_]+$"
+          "pattern": "^[a-z0-9_]+$",
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "source_id": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "name": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "legacy",
+              "catalog"
+            ]
+          }
         },
         "country_code": {
           "type": "string",
-          "pattern": "^[A-Z]{2}$"
+          "pattern": "^[A-Z]{2}$",
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "region_code": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "region_name": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "locality": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "timezone": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "lat": {
           "$ref": "#/$defs/nullable_number",
           "minimum": -90,
-          "maximum": 90
+          "maximum": 90,
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "lng": {
           "$ref": "#/$defs/nullable_number",
           "minimum": -180,
-          "maximum": 180
+          "maximum": 180,
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "elevation_ft": {
           "$ref": "#/$defs/nullable_integer",
           "minimum": -2000,
-          "maximum": 30000
+          "maximum": 30000,
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "legacy",
+              "catalog"
+            ]
+          }
         },
         "base_elevation_ft": {
           "$ref": "#/$defs/nullable_integer",
           "minimum": -2000,
-          "maximum": 30000
+          "maximum": 30000,
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "summit_elevation_ft": {
           "$ref": "#/$defs/nullable_integer",
           "minimum": -2000,
-          "maximum": 30000
+          "maximum": 30000,
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "vertical_drop_ft": {
           "$ref": "#/$defs/nullable_integer",
           "minimum": 0,
-          "maximum": 30000
+          "maximum": 30000,
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "status": {
           "enum": [
@@ -186,13 +318,32 @@
             "inactive",
             "proposed",
             "retired"
-          ]
+          ],
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "is_active": {
-          "type": "boolean"
+          "type": "boolean",
+          "x-snowfield": {
+            "csv": true,
+            "min_json": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "is_verified": {
-          "type": "boolean"
+          "type": "boolean",
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "tags": {
           "type": "array",
@@ -202,7 +353,13 @@
           }
         },
         "updated_at": {
-          "$ref": "#/$defs/date"
+          "$ref": "#/$defs/date",
+          "x-snowfield": {
+            "csv": true,
+            "sync_modes": [
+              "catalog"
+            ]
+          }
         },
         "sources": {
           "type": "array",
@@ -215,4 +372,3 @@
     }
   }
 }
-

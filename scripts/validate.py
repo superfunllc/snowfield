@@ -9,6 +9,8 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
+from field_catalog import required_record_fields, required_source_fields
+
 
 DATASET_VERSION_RE = re.compile(r"^\d{4}\.\d{2}\.\d{2}([-.+][A-Za-z0-9_.-]+)?$")
 CATALOG_ID_RE = re.compile(r"^[a-z0-9_.:-]+$")
@@ -17,30 +19,8 @@ SOURCE_RE = re.compile(r"^[a-z0-9_]+$")
 COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
 TAG_RE = re.compile(r"^[a-z0-9_]+$")
 
-REQUIRED_RECORD_FIELDS = [
-    "catalog_id",
-    "slug",
-    "source",
-    "source_id",
-    "name",
-    "country_code",
-    "region_code",
-    "region_name",
-    "locality",
-    "timezone",
-    "lat",
-    "lng",
-    "elevation_ft",
-    "base_elevation_ft",
-    "summit_elevation_ft",
-    "vertical_drop_ft",
-    "status",
-    "is_active",
-    "is_verified",
-    "tags",
-    "updated_at",
-    "sources",
-]
+REQUIRED_RECORD_FIELDS = required_record_fields()
+REQUIRED_SOURCE_FIELDS = required_source_fields()
 
 STATUS_ACTIVE_VALUE = {
     "active": True,
@@ -102,7 +82,7 @@ def validate_sources(record: dict[str, Any], index: int, errors: list[str]) -> N
         if not isinstance(source, dict):
             errors.append(f"{source_path}: expected object")
             continue
-        for field in ["type", "name", "url", "retrieved_at"]:
+        for field in REQUIRED_SOURCE_FIELDS:
             if field not in source:
                 errors.append(f"{source_path}.{field}: missing required field")
         if not isinstance(source.get("type"), str) or not source.get("type"):
@@ -283,4 +263,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

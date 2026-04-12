@@ -24,30 +24,15 @@ YYYY.MM.DD-suffix
 
 ## Required Fields
 
-Every record includes:
+Required fields are defined by `schema/snow_fields.schema.json` under `$defs.snow_field.required`.
 
-- `catalog_id`
-- `slug`
-- `source`
-- `source_id`
-- `name`
-- `country_code`
-- `region_code`
-- `region_name`
-- `locality`
-- `timezone`
-- `lat`
-- `lng`
-- `elevation_ft`
-- `base_elevation_ft`
-- `summit_elevation_ft`
-- `vertical_drop_ft`
-- `status`
-- `is_active`
-- `is_verified`
-- `tags`
-- `updated_at`
-- `sources`
+That schema is also the shared field catalog for the tooling. Its `x-snowfield` metadata controls:
+
+- CSV export fields
+- minified JSON fields
+- Supabase sync fields by schema mode
+- Supabase conflict keys by schema mode
+- local variant region rules
 
 Coordinates and detailed elevation fields may be `null` during bootstrap. Do not guess them. Add them only when a source has been checked.
 
@@ -64,10 +49,8 @@ Both variants are generated from the same canonical JSON.
 
 Snowpool should treat this repository as canonical data and Supabase/Postgres as the runtime serving copy.
 
-For the current legacy Snowpool table, use `scripts/sync_supabase.py --schema-mode legacy`. It upserts:
+For the current legacy Snowpool table, use `scripts/sync_supabase.py --schema-mode legacy`.
 
-- `name`
-- `elevation_ft`
+For the expanded catalog table, use `--schema-mode catalog`.
 
-For the expanded catalog table, use `--schema-mode catalog`. That mode expects the future catalog columns to exist and upserts by `catalog_id`.
-
+Both modes derive their upsert columns and conflict keys from `schema/snow_fields.schema.json`.

@@ -10,58 +10,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from field_catalog import fields_with_flag, local_regions
 from validate import load_dataset, validate_dataset
 
 
-CSV_FIELDS = [
-    "catalog_id",
-    "slug",
-    "source",
-    "source_id",
-    "name",
-    "country_code",
-    "region_code",
-    "region_name",
-    "locality",
-    "timezone",
-    "lat",
-    "lng",
-    "elevation_ft",
-    "base_elevation_ft",
-    "summit_elevation_ft",
-    "vertical_drop_ft",
-    "status",
-    "is_active",
-    "is_verified",
-    "updated_at",
-]
-
-MIN_JSON_FIELDS = [
-    "catalog_id",
-    "slug",
-    "name",
-    "country_code",
-    "region_code",
-    "timezone",
-    "lat",
-    "lng",
-    "elevation_ft",
-    "is_active",
-]
-
-LOCAL_REGIONS = {
-    ("US", "AZ"),
-    ("US", "CA"),
-    ("US", "CO"),
-    ("US", "ID"),
-    ("US", "MT"),
-    ("US", "NM"),
-    ("US", "NV"),
-    ("US", "OR"),
-    ("US", "UT"),
-    ("US", "WA"),
-    ("US", "WY"),
-}
+CSV_FIELDS = fields_with_flag("csv")
+MIN_JSON_FIELDS = fields_with_flag("min_json")
+LOCAL_REGIONS = local_regions()
 
 
 def generated_at_now() -> str:
@@ -237,4 +192,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

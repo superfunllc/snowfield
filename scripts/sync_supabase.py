@@ -10,44 +10,14 @@ from typing import Any
 from urllib import error, parse, request
 
 from export import rows_for_variant
+from field_catalog import sync_columns, sync_conflict_column
 from validate import load_dataset, validate_dataset
 
 
-LEGACY_COLUMNS = [
-    "name",
-    "elevation_ft",
-]
-
-CATALOG_COLUMNS = [
-    "catalog_id",
-    "slug",
-    "source",
-    "source_id",
-    "name",
-    "country_code",
-    "region_code",
-    "region_name",
-    "locality",
-    "timezone",
-    "lat",
-    "lng",
-    "elevation_ft",
-    "base_elevation_ft",
-    "summit_elevation_ft",
-    "vertical_drop_ft",
-    "status",
-    "is_active",
-    "is_verified",
-    "updated_at",
-]
-
-
 def payload_for_mode(rows: list[dict[str, Any]], schema_mode: str) -> tuple[list[dict[str, Any]], str]:
-    if schema_mode == "legacy":
-        return [{column: row.get(column) for column in LEGACY_COLUMNS} for row in rows], "name"
-    if schema_mode == "catalog":
-        return [{column: row.get(column) for column in CATALOG_COLUMNS} for row in rows], "catalog_id"
-    raise ValueError(f"unknown schema mode {schema_mode!r}")
+    columns = sync_columns(schema_mode)
+    conflict_column = sync_conflict_column(schema_mode)
+    return [{column: row.get(column) for column in columns} for row in rows], conflict_column
 
 
 def upsert_rows(
@@ -125,4 +95,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
