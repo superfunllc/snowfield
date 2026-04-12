@@ -1,0 +1,24 @@
+name: Redis connectivity check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-redis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install redis-cli
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y redis-tools
+
+      - name: Check TCP port
+        run: |
+          timeout 5 bash -c '</dev/tcp/metro.proxy.rlwy.net/10159'
+          echo "TCP port is reachable"
+
+      - name: Check Redis PING
+        env:
+          REDIS_URL: ${{ secrets.REDIS_URL }}
+        run: |
+          redis-cli -u "$REDIS_URL" --no-auth-warning ping
