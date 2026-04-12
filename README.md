@@ -72,14 +72,14 @@ When `snow_fields` changes in Snowpool:
    The schema's `required` list controls required fields; its `x-snowfield` metadata controls CSV export fields, minified JSON fields, Supabase sync columns, conflict keys, and local variant region rules.
 4. Add values for the new field in `data/snow_fields.json`.
 5. Update `docs/DATASET_CONTRACT.md` when the public data contract changes.
-6. Update scripts only when the field needs custom validation, transform, or sync behavior that is not covered by the schema metadata.
+6. Update the Go CLI only when the field needs custom validation, transform, or sync behavior that is not covered by the schema metadata.
 7. Bump `schema_version` when the dataset release contract changes in a breaking way.
 8. Regenerate and verify artifacts:
 
 ```sh
 make validate
 make export
-python3 scripts/sync_supabase.py --dry-run --schema-mode catalog --variant full
+go run ./cmd/snowfield sync --dry-run --schema-mode catalog --variant full
 ```
 
 If a new DB column is required, make sure the migration provides a default/backfill or the dataset has complete values before running a real sync.

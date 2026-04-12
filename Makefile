@@ -1,21 +1,24 @@
-PYTHON ?= python3
+SNOWFIELD ?= go run ./cmd/snowfield
 OUTPUT_DIR ?= dist
 DATASET ?= data/snow_fields.json
+SCHEMA ?= schema/snow_fields.schema.json
 
-.PHONY: validate export sync-legacy sync-catalog clean
+.PHONY: validate export sync-legacy sync-catalog test clean
 
 validate:
-	$(PYTHON) scripts/validate.py --dataset $(DATASET)
+	$(SNOWFIELD) validate --dataset $(DATASET) --schema $(SCHEMA)
 
 export:
-	$(PYTHON) scripts/export.py --dataset $(DATASET) --output-dir $(OUTPUT_DIR)
+	$(SNOWFIELD) export --dataset $(DATASET) --schema $(SCHEMA) --output-dir $(OUTPUT_DIR)
 
 sync-legacy:
-	$(PYTHON) scripts/sync_supabase.py --dataset $(DATASET) --schema-mode legacy
+	$(SNOWFIELD) sync --dataset $(DATASET) --schema $(SCHEMA) --schema-mode legacy
 
 sync-catalog:
-	$(PYTHON) scripts/sync_supabase.py --dataset $(DATASET) --schema-mode catalog
+	$(SNOWFIELD) sync --dataset $(DATASET) --schema $(SCHEMA) --schema-mode catalog
+
+test:
+	go test ./...
 
 clean:
 	rm -rf $(OUTPUT_DIR)
-

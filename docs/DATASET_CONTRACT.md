@@ -38,7 +38,7 @@ Coordinates and detailed elevation fields may be `null` during bootstrap. Do not
 
 ## Variants
 
-`scripts/export.py` currently emits:
+`go run ./cmd/snowfield export` currently emits:
 
 - `full`: all records
 - `local`: current US West subset, derived by region rule
@@ -49,7 +49,7 @@ Both variants are generated from the same canonical JSON.
 
 Snowpool should treat this repository as canonical data and Supabase/Postgres as the runtime serving copy.
 
-For the current legacy Snowpool table, use `scripts/sync_supabase.py --schema-mode legacy`.
+For the current legacy Snowpool table, use `go run ./cmd/snowfield sync --schema-mode legacy`.
 
 For the expanded catalog table, use `--schema-mode catalog`.
 
