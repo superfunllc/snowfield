@@ -1,4 +1,4 @@
-name: Dataset
+name: Dataset Validate & Manual Supabase Sync
 
 on:
   pull_request:
