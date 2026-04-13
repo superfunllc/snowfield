@@ -15,6 +15,8 @@ var sourcePattern = regexp.MustCompile(`^[a-z0-9_]+$`)
 var countryCodePattern = regexp.MustCompile(`^[A-Z]{2}$`)
 var tagPattern = regexp.MustCompile(`^[a-z0-9_]+$`)
 
+const verticalDropToleranceFT = 50
+
 var statusActiveValue = map[string]bool{
 	"active":   true,
 	"proposed": false,
@@ -143,8 +145,9 @@ func Validate(loaded *Loaded) []string {
 			errors = append(errors, fmt.Sprintf("%s: base_elevation_ft must be <= summit_elevation_ft", path))
 		}
 		if record.BaseElevationFT != nil && record.SummitElevationFT != nil && record.VerticalDropFT != nil {
-			if *record.SummitElevationFT-*record.BaseElevationFT != *record.VerticalDropFT {
-				errors = append(errors, fmt.Sprintf("%s: vertical_drop_ft must equal summit_elevation_ft - base_elevation_ft", path))
+			delta := *record.SummitElevationFT - *record.BaseElevationFT - *record.VerticalDropFT
+			if absInt(delta) > verticalDropToleranceFT {
+				errors = append(errors, fmt.Sprintf("%s: vertical_drop_ft must be within %d ft of summit_elevation_ft - base_elevation_ft", path, verticalDropToleranceFT))
 			}
 		}
 
@@ -203,6 +206,13 @@ func validateNullableInt(value *int, path string, minValue int, maxValue int, er
 	if *value < minValue || *value > maxValue {
 		*errors = append(*errors, fmt.Sprintf("%s: %v outside expected range %v..%v", path, *value, minValue, maxValue))
 	}
+}
+
+func absInt(value int) int {
+	if value < 0 {
+		return -value
+	}
+	return value
 }
 
 func validateDate(value string, path string, errors *[]string) {
