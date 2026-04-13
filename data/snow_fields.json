@@ -6,6 +6,68 @@
   "description": "Canonical Snowpool snow field catalog. This file is the editable source of truth; generated CSV, GeoJSON, and release manifests are derived from it.",
   "records": [
     {
+      "catalog_id": "snowpool:nz-mwt-tukino",
+      "slug": "nz-mwt-tukino",
+      "source": "official_website",
+      "source_id": "tukino.org",
+      "name": "Tukino",
+      "country_code": "NZ",
+      "region_code": "MWT",
+      "region_name": "Manawatu-Whanganui",
+      "locality": "Rangipo",
+      "timezone": "Pacific/Auckland",
+      "lat": -39.277384,
+      "lng": 175.608337,
+      "elevation_ft": null,
+      "base_elevation_ft": 5511,
+      "summit_elevation_ft": 6627,
+      "vertical_drop_ft": 1115,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "official_website",
+          "name": "Tukino Skifield - Ski Tukino",
+          "url": "https://www.tukino.org/ski",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for active public ski field status, club-field classification, and official 340 m vertical drop converted to feet."
+        },
+        {
+          "type": "official_website",
+          "name": "Tukino Skifield - Getting To the Tukino Ski Field",
+          "url": "https://www.tukino.org/getting-there",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for locality/address: Tukino Access Road, SH1, Rangipo, Tongariro National Park, New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for NZ-MWT regional code and current Manawatu-Whanganui region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Tukino",
+          "url": "https://en.wikipedia.org/wiki/Tukino",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for coordinates."
+        }
+      ]
+    },
+    {
       "catalog_id": "snowpool:us-ca-heavenly",
       "slug": "us-ca-heavenly",
       "source": "snowpool_bootstrap",
