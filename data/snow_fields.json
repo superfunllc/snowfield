@@ -6,6 +6,849 @@
   "description": "Canonical Snowpool snow field catalog. This file is the editable source of truth; generated CSV, GeoJSON, and release manifests are derived from it.",
   "records": [
     {
+      "catalog_id": "snowpool:nz-can-awakino",
+      "slug": "nz-can-awakino",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-awakino",
+      "name": "Awakino",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Awakino listing, Canterbury grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-broken-river",
+      "slug": "nz-can-broken-river",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-broken-river",
+      "name": "Broken River",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Craigieburn Range",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Broken River listing, Craigieburn Range grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-craigieburn-valley",
+      "slug": "nz-can-craigieburn-valley",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-craigieburn-valley",
+      "name": "Craigieburn Valley",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Craigieburn Range",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Craigieburn Valley listing, Craigieburn Range grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-fox-peak",
+      "slug": "nz-can-fox-peak",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-fox-peak",
+      "name": "Fox Peak",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Fox Peak listing, Canterbury grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-hanmer-springs-ski-area",
+      "slug": "nz-can-hanmer-springs-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-hanmer-springs-ski-area",
+      "name": "Hanmer Springs Ski Area",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Hanmer Springs Ski Area listing, Canterbury grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-mount-cheeseman",
+      "slug": "nz-can-mount-cheeseman",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-mount-cheeseman",
+      "name": "Mount Cheeseman",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Craigieburn Range",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Cheeseman listing, Craigieburn Range grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-mount-dobson",
+      "slug": "nz-can-mount-dobson",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-mount-dobson",
+      "name": "Mount Dobson",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Dobson listing, Canterbury grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-mount-hutt",
+      "slug": "nz-can-mount-hutt",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-mount-hutt",
+      "name": "Mount Hutt",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Hutt listing, Canterbury grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-mount-lyford",
+      "slug": "nz-can-mount-lyford",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-mount-lyford",
+      "name": "Mount Lyford",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Lyford listing, Canterbury grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-mount-olympus",
+      "slug": "nz-can-mount-olympus",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-mount-olympus",
+      "name": "Mount Olympus",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Craigieburn Range",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Olympus listing, Craigieburn Range grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-mount-potts",
+      "slug": "nz-can-mount-potts",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-mount-potts",
+      "name": "Mount Potts",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "inactive",
+      "is_active": false,
+      "is_verified": true,
+      "tags": [
+        "backcountry",
+        "former_skifield",
+        "heliskiing",
+        "new_zealand_ski_resorts",
+        "snowcatting"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Potts listing, Canterbury grouping, and heliskiing and snowcatting-only notation; inactive status is sourced from the Mount Potts article."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Mount Potts",
+          "url": "https://en.wikipedia.org/wiki/Mount_Potts",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Canterbury location and inactive former skifield status; source reports the operated skifield ended in 2011 and current use is backcountry skiing."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-ohau",
+      "slug": "nz-can-ohau",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-ohau",
+      "name": "Ohau",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Ohau listing, Canterbury grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-porters-ski-area",
+      "slug": "nz-can-porters-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-porters-ski-area",
+      "name": "Porters Ski Area",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Porters Ski Area listing, Canterbury grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-roundhill",
+      "slug": "nz-can-roundhill",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-roundhill",
+      "name": "Roundhill",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Roundhill listing, Canterbury grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-tasman-glacier",
+      "slug": "nz-can-tasman-glacier",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-tasman-glacier",
+      "name": "Tasman Glacier",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "heliskiing",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Tasman Glacier listing, Canterbury grouping, and active public ski-area status in New Zealand; also used for heliskiing notation."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-can-temple-basin",
+      "slug": "nz-can-temple-basin",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-can-temple-basin",
+      "name": "Temple Basin",
+      "country_code": "NZ",
+      "region_code": "CAN",
+      "region_name": "Canterbury",
+      "locality": "Canterbury",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Temple Basin listing, Canterbury grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-CAN regional code and current Canterbury region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-mbh-rainbow",
+      "slug": "nz-mbh-rainbow",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-mbh-rainbow",
+      "name": "Rainbow",
+      "country_code": "NZ",
+      "region_code": "MBH",
+      "region_name": "Marlborough",
+      "locality": "Saint Arnaud",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Rainbow listing, Nelson Lakes grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-MBH regional code and current Marlborough region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Rainbow Ski Area",
+          "url": "https://en.wikipedia.org/wiki/Rainbow_Ski_Area",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Marlborough District regional context and Saint Arnaud locality context."
+        }
+      ]
+    },
+    {
       "catalog_id": "snowpool:nz-mwt-tukino",
       "slug": "nz-mwt-tukino",
       "source": "official_website",
@@ -26,9 +869,10 @@
       "is_active": true,
       "is_verified": true,
       "tags": [
-        "club_field"
+        "club_field",
+        "new_zealand_ski_resorts"
       ],
-      "updated_at": "2026-04-12",
+      "updated_at": "2026-04-13",
       "sources": [
         {
           "type": "official_website",
@@ -64,6 +908,470 @@
           "url": "https://en.wikipedia.org/wiki/Tukino",
           "retrieved_at": "2026-04-12",
           "note": "Used for coordinates."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Tukino listing, Rangipo grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-mwt-turoa",
+      "slug": "nz-mwt-turoa",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-mwt-turoa",
+      "name": "Turoa",
+      "country_code": "NZ",
+      "region_code": "MWT",
+      "region_name": "Manawatu-Whanganui",
+      "locality": "Mount Ruapehu",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Turoa listing, Mount Ruapehu grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-MWT regional code and current Manawatu-Whanganui region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Turoa",
+          "url": "https://en.wikipedia.org/wiki/Turoa",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Ruapehu locality context and current operation by Pure Turoa since 2024."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-mwt-whakapapa",
+      "slug": "nz-mwt-whakapapa",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-mwt-whakapapa",
+      "name": "Whakapapa",
+      "country_code": "NZ",
+      "region_code": "MWT",
+      "region_name": "Manawatu-Whanganui",
+      "locality": "Mount Ruapehu",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Whakapapa listing, Mount Ruapehu grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-MWT regional code and current Manawatu-Whanganui region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Whakapapa skifield",
+          "url": "https://en.wikipedia.org/wiki/Whakapapa_skifield",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Manawatu-Whanganui regional context, Mount Ruapehu locality context, and operation by Whakapapa Holdings since 2025."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-ota-cardrona-alpine-resort",
+      "slug": "nz-ota-cardrona-alpine-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-ota-cardrona-alpine-resort",
+      "name": "Cardrona Alpine Resort",
+      "country_code": "NZ",
+      "region_code": "OTA",
+      "region_name": "Otago",
+      "locality": "Wanaka",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Cardrona Alpine Resort listing, Wanaka grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-OTA regional code and current Otago region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-ota-coronet-peak",
+      "slug": "nz-ota-coronet-peak",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-ota-coronet-peak",
+      "name": "Coronet Peak",
+      "country_code": "NZ",
+      "region_code": "OTA",
+      "region_name": "Otago",
+      "locality": "Queenstown",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Coronet Peak listing, Queenstown grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-OTA regional code and current Otago region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-ota-invincible-snowfields",
+      "slug": "nz-ota-invincible-snowfields",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-ota-invincible-snowfields",
+      "name": "Invincible Snowfields",
+      "country_code": "NZ",
+      "region_code": "OTA",
+      "region_name": "Otago",
+      "locality": "Glenorchy",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "backcountry",
+        "helicopter_access_only",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Invincible Snowfields listing, Otago grouping, and active public ski-area status in New Zealand; also used for helicopter-access-only notation."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-OTA regional code and current Otago region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Invincible Snowfields",
+          "url": "https://en.wikipedia.org/wiki/Invincible_Snowfields",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Otago regional context, Glenorchy locality context, helicopter-access context, and backcountry terrain classification."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-ota-snow-farm",
+      "slug": "nz-ota-snow-farm",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-ota-snow-farm",
+      "name": "Snow Farm",
+      "country_code": "NZ",
+      "region_code": "OTA",
+      "region_name": "Otago",
+      "locality": "Wanaka",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "cross_country",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Snow Farm listing, Wanaka grouping, and active public ski-area status in New Zealand; also used for cross-country skiing-only notation."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-OTA regional code and current Otago region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-ota-the-remarkables",
+      "slug": "nz-ota-the-remarkables",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-ota-the-remarkables",
+      "name": "The Remarkables",
+      "country_code": "NZ",
+      "region_code": "OTA",
+      "region_name": "Otago",
+      "locality": "Queenstown",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for The Remarkables listing, Queenstown grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-OTA regional code and current Otago region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-ota-treble-cone",
+      "slug": "nz-ota-treble-cone",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-ota-treble-cone",
+      "name": "Treble Cone",
+      "country_code": "NZ",
+      "region_code": "OTA",
+      "region_name": "Otago",
+      "locality": "Wanaka",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Treble Cone listing, Wanaka grouping, and active public ski-area status in New Zealand."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-OTA regional code and current Otago region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:nz-tki-manganui",
+      "slug": "nz-tki-manganui",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-new-zealand#nz-tki-manganui",
+      "name": "Manganui",
+      "country_code": "NZ",
+      "region_code": "TKI",
+      "region_name": "Taranaki",
+      "locality": "Taranaki",
+      "timezone": "Pacific/Auckland",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "club_field",
+        "new_zealand_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in New Zealand",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_New_Zealand",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Manganui listing, Taranaki grouping, and active public ski-area status in New Zealand; also used for club-skifield classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:NZ - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:NZ",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for NZ-TKI regional code and current Taranaki region name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for New Zealand time zone Pacific/Auckland."
         }
       ]
     },
