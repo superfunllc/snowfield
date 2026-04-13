@@ -81,9 +81,9 @@
       "timezone": "Australia/Sydney",
       "lat": -36.433522,
       "lng": 148.330944,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6326,
+      "base_elevation_ft": 5742,
+      "summit_elevation_ft": 6326,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -126,7 +126,7 @@
           "name": "OpenSkiMap - Charlotte Pass",
           "url": "https://openskimap.org/?obj=7588999978031722a64803d9029210d8d35accc4",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 7588999978031722a64803d9029210d8d35accc4."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 7588999978031722a64803d9029210d8d35accc4; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -206,9 +206,9 @@
       "timezone": "Australia/Sydney",
       "lat": -36.407811,
       "lng": 148.3842,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6684,
+      "base_elevation_ft": 5264,
+      "summit_elevation_ft": 6684,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -251,7 +251,7 @@
           "name": "OpenSkiMap - Perisher",
           "url": "https://openskimap.org/?obj=3885048f9cb77cae837d23131d2f8fb78d06f807",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 3885048f9cb77cae837d23131d2f8fb78d06f807."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 3885048f9cb77cae837d23131d2f8fb78d06f807; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -268,9 +268,9 @@
       "timezone": "Australia/Sydney",
       "lat": -36.407811,
       "lng": 148.3842,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6684,
+      "base_elevation_ft": 5264,
+      "summit_elevation_ft": 6684,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -314,7 +314,7 @@
           "name": "OpenSkiMap - Perisher",
           "url": "https://openskimap.org/?obj=3885048f9cb77cae837d23131d2f8fb78d06f807",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 3885048f9cb77cae837d23131d2f8fb78d06f807."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 3885048f9cb77cae837d23131d2f8fb78d06f807; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -331,9 +331,9 @@
       "timezone": "Australia/Sydney",
       "lat": -35.908882,
       "lng": 148.452048,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5249,
+      "base_elevation_ft": 4889,
+      "summit_elevation_ft": 5249,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -376,7 +376,7 @@
           "name": "OpenSkiMap - Selwyn Snow Resort",
           "url": "https://openskimap.org/?obj=c5af152264c21d9abf0acf3623dbb990d1e152b3",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature c5af152264c21d9abf0acf3623dbb990d1e152b3."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature c5af152264c21d9abf0acf3623dbb990d1e152b3; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -456,9 +456,9 @@
       "timezone": "Australia/Sydney",
       "lat": -36.49385,
       "lng": 148.292788,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6679,
+      "base_elevation_ft": 4479,
+      "summit_elevation_ft": 6679,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -501,7 +501,7 @@
           "name": "OpenSkiMap - Thredbo Resort",
           "url": "https://openskimap.org/?obj=890292ea837546e59f76bc5ebe6215c87576f8cf",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 890292ea837546e59f76bc5ebe6215c87576f8cf."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 890292ea837546e59f76bc5ebe6215c87576f8cf; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -518,9 +518,9 @@
       "timezone": "Australia/Hobart",
       "lat": -41.534406,
       "lng": 147.660928,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5137,
+      "base_elevation_ft": 4804,
+      "summit_elevation_ft": 5137,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -563,7 +563,7 @@
           "name": "OpenSkiMap - Ben Lomond",
           "url": "https://openskimap.org/?obj=4d2fbf30a6aac2d5b70b86ff6419a1a2196e8972",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 4d2fbf30a6aac2d5b70b86ff6419a1a2196e8972."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 4d2fbf30a6aac2d5b70b86ff6419a1a2196e8972; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -580,9 +580,9 @@
       "timezone": "Australia/Hobart",
       "lat": -42.682101,
       "lng": 146.576945,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 4083,
+      "base_elevation_ft": 4001,
+      "summit_elevation_ft": 4083,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -626,7 +626,7 @@
           "name": "OpenSkiMap - Mount Mawson",
           "url": "https://openskimap.org/?obj=9a112643ca4ee8653be0c8c581b4ee15b97cd3af",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 9a112643ca4ee8653be0c8c581b4ee15b97cd3af."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 9a112643ca4ee8653be0c8c581b4ee15b97cd3af; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -643,9 +643,9 @@
       "timezone": "Australia/Melbourne",
       "lat": -37.023745,
       "lng": 147.244233,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5191,
+      "base_elevation_ft": 5121,
+      "summit_elevation_ft": 5191,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -689,7 +689,7 @@
           "name": "OpenSkiMap - Cobungra Slope",
           "url": "https://openskimap.org/?obj=42dfecf9ee0cb1fc567b8ea49e262382dece4fe5",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 42dfecf9ee0cb1fc567b8ea49e262382dece4fe5."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 42dfecf9ee0cb1fc567b8ea49e262382dece4fe5; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -706,9 +706,9 @@
       "timezone": "Australia/Melbourne",
       "lat": -36.868797,
       "lng": 147.273582,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5820,
+      "base_elevation_ft": 4943,
+      "summit_elevation_ft": 5820,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -751,7 +751,7 @@
           "name": "OpenSkiMap - Falls Creek",
           "url": "https://openskimap.org/?obj=2ea01c73118f9c02add82629743aade1a80abcce",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 2ea01c73118f9c02add82629743aade1a80abcce."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 2ea01c73118f9c02add82629743aade1a80abcce; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -768,9 +768,9 @@
       "timezone": "Australia/Melbourne",
       "lat": -37.838977,
       "lng": 146.267624,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5139,
+      "base_elevation_ft": 4773,
+      "summit_elevation_ft": 5139,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -813,7 +813,7 @@
           "name": "OpenSkiMap - Mount Baw Baw",
           "url": "https://openskimap.org/?obj=23a0a264fad0b3f8ee8c9c71a8adc0335925bac7",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 23a0a264fad0b3f8ee8c9c71a8adc0335925bac7."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 23a0a264fad0b3f8ee8c9c71a8adc0335925bac7; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -830,9 +830,9 @@
       "timezone": "Australia/Melbourne",
       "lat": -37.148428,
       "lng": 146.43938,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5829,
+      "base_elevation_ft": 4553,
+      "summit_elevation_ft": 5829,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -875,7 +875,7 @@
           "name": "OpenSkiMap - Mount Buller",
           "url": "https://openskimap.org/?obj=bf24d3a7ef53b94159795d6d663dad89ac81cbf2",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature bf24d3a7ef53b94159795d6d663dad89ac81cbf2."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature bf24d3a7ef53b94159795d6d663dad89ac81cbf2; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -892,9 +892,9 @@
       "timezone": "Australia/Melbourne",
       "lat": -36.993769,
       "lng": 147.195918,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6088,
+      "base_elevation_ft": 4754,
+      "summit_elevation_ft": 6088,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -937,7 +937,7 @@
           "name": "OpenSkiMap - Mount Hotham",
           "url": "https://openskimap.org/?obj=fd839899582c8f2457f330931b333696e0d6a800",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature fd839899582c8f2457f330931b333696e0d6a800."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature fd839899582c8f2457f330931b333696e0d6a800; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -954,9 +954,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -44.781228,
       "lng": 170.319441,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5558,
+      "base_elevation_ft": 4032,
+      "summit_elevation_ft": 5558,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -993,7 +993,7 @@
           "name": "OpenSkiMap - Awakino Ski Area",
           "url": "https://openskimap.org/?obj=25929e63d9f863d526a95f238201c0893ee877a4",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 25929e63d9f863d526a95f238201c0893ee877a4."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 25929e63d9f863d526a95f238201c0893ee877a4; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1010,9 +1010,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.123807,
       "lng": 171.683617,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5955,
+      "base_elevation_ft": 4649,
+      "summit_elevation_ft": 5955,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1049,7 +1049,7 @@
           "name": "OpenSkiMap - Broken River Ski Area",
           "url": "https://openskimap.org/?obj=efe9aff84565bffc20cb42735fe07fa9b1ca3230",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature efe9aff84565bffc20cb42735fe07fa9b1ca3230."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature efe9aff84565bffc20cb42735fe07fa9b1ca3230; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1066,9 +1066,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.109704,
       "lng": 171.698735,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5940,
+      "base_elevation_ft": 4245,
+      "summit_elevation_ft": 5940,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1105,7 +1105,7 @@
           "name": "OpenSkiMap - Craigieburn Valley Ski Area",
           "url": "https://openskimap.org/?obj=2e2b49456e3b9ae7f9662b19e0dde3a0d3122e7a",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 2e2b49456e3b9ae7f9662b19e0dde3a0d3122e7a."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 2e2b49456e3b9ae7f9662b19e0dde3a0d3122e7a; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1122,9 +1122,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.852399,
       "lng": 170.808103,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6000,
+      "base_elevation_ft": 4341,
+      "summit_elevation_ft": 6000,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1161,7 +1161,7 @@
           "name": "OpenSkiMap - Fox Peak Ski Area",
           "url": "https://openskimap.org/?obj=e762a61a92f196805abcb0e0099b920478b66e6c",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature e762a61a92f196805abcb0e0099b920478b66e6c."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature e762a61a92f196805abcb0e0099b920478b66e6c; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1178,9 +1178,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -42.442258,
       "lng": 172.731354,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5746,
+      "base_elevation_ft": 4727,
+      "summit_elevation_ft": 5746,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1217,7 +1217,7 @@
           "name": "OpenSkiMap - Hanmer Springs Ski Area",
           "url": "https://openskimap.org/?obj=b2ff35c676cd4772bec1c1f27a3a1c6cf9860d24",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature b2ff35c676cd4772bec1c1f27a3a1c6cf9860d24."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature b2ff35c676cd4772bec1c1f27a3a1c6cf9860d24; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1234,9 +1234,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.155114,
       "lng": 171.664222,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6083,
+      "base_elevation_ft": 5084,
+      "summit_elevation_ft": 6083,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1273,7 +1273,7 @@
           "name": "OpenSkiMap - Mount Cheeseman Ski Area",
           "url": "https://openskimap.org/?obj=5f2e8411437e47bfaac7e18296dd87a4cd05a1a5",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 5f2e8411437e47bfaac7e18296dd87a4cd05a1a5."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 5f2e8411437e47bfaac7e18296dd87a4cd05a1a5; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1290,9 +1290,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.939852,
       "lng": 170.666774,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6595,
+      "base_elevation_ft": 5619,
+      "summit_elevation_ft": 6595,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1328,7 +1328,7 @@
           "name": "OpenSkiMap - Mount Dobson Ski Field",
           "url": "https://openskimap.org/?obj=48984f94d307b53ec5673e6b7c0fef4c3e44b40d",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 48984f94d307b53ec5673e6b7c0fef4c3e44b40d."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 48984f94d307b53ec5673e6b7c0fef4c3e44b40d; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1345,9 +1345,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.492144,
       "lng": 171.538059,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6774,
+      "base_elevation_ft": 4655,
+      "summit_elevation_ft": 6774,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1383,7 +1383,7 @@
           "name": "OpenSkiMap - Mount Hutt Ski Area",
           "url": "https://openskimap.org/?obj=75a48d6e88763b222b455a2465943324daf395d8",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 75a48d6e88763b222b455a2465943324daf395d8."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 75a48d6e88763b222b455a2465943324daf395d8; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1400,9 +1400,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -42.442402,
       "lng": 173.147999,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5692,
+      "base_elevation_ft": 4634,
+      "summit_elevation_ft": 5692,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1438,7 +1438,7 @@
           "name": "OpenSkiMap - Mount Lyford Alpine Resort",
           "url": "https://openskimap.org/?obj=4ef9827af789a37b451bd0170d3ac37cfff50fa5",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 4ef9827af789a37b451bd0170d3ac37cfff50fa5."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 4ef9827af789a37b451bd0170d3ac37cfff50fa5; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1455,9 +1455,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.193743,
       "lng": 171.603857,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5952,
+      "base_elevation_ft": 4807,
+      "summit_elevation_ft": 5952,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1494,7 +1494,7 @@
           "name": "OpenSkiMap - Mount Olympus Ski Area",
           "url": "https://openskimap.org/?obj=726d6796738506188540f8a232ae1c26c3c0673c",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 726d6796738506188540f8a232ae1c26c3c0673c."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 726d6796738506188540f8a232ae1c26c3c0673c; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1570,9 +1570,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -44.222129,
       "lng": 169.776376,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5903,
+      "base_elevation_ft": 4655,
+      "summit_elevation_ft": 5903,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1608,7 +1608,7 @@
           "name": "OpenSkiMap - Ohau Snow Fields",
           "url": "https://openskimap.org/?obj=93de1b1f3b12ac6d56f8f4ca5fc1e5ce5b76274a",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 93de1b1f3b12ac6d56f8f4ca5fc1e5ce5b76274a."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 93de1b1f3b12ac6d56f8f4ca5fc1e5ce5b76274a; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1625,9 +1625,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.271803,
       "lng": 171.633484,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6374,
+      "base_elevation_ft": 4279,
+      "summit_elevation_ft": 6374,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1663,7 +1663,7 @@
           "name": "OpenSkiMap - Porters Ski Area",
           "url": "https://openskimap.org/?obj=d5237311b1535139791072f9a9519ccf0c3a0300",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature d5237311b1535139791072f9a9519ccf0c3a0300."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature d5237311b1535139791072f9a9519ccf0c3a0300; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1680,9 +1680,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -43.82274,
       "lng": 170.667064,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6955,
+      "base_elevation_ft": 4479,
+      "summit_elevation_ft": 6955,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1718,7 +1718,7 @@
           "name": "OpenSkiMap - Roundhill Ski Field",
           "url": "https://openskimap.org/?obj=23bc7d61930f8c781bf2ef89f919a1080d4d74ad",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 23bc7d61930f8c781bf2ef89f919a1080d4d74ad."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 23bc7d61930f8c781bf2ef89f919a1080d4d74ad; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1784,9 +1784,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -42.90888,
       "lng": 171.582259,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5746,
+      "base_elevation_ft": 4417,
+      "summit_elevation_ft": 5746,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1823,7 +1823,7 @@
           "name": "OpenSkiMap - Temple Basin",
           "url": "https://openskimap.org/?obj=e37a87a75834841329fa9b00a736c4f2d029248d",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature e37a87a75834841329fa9b00a736c4f2d029248d."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature e37a87a75834841329fa9b00a736c4f2d029248d; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1840,9 +1840,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -41.872016,
       "lng": 172.856079,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5722,
+      "base_elevation_ft": 5057,
+      "summit_elevation_ft": 5722,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -1885,7 +1885,7 @@
           "name": "OpenSkiMap - Rainbow Ski Area",
           "url": "https://openskimap.org/?obj=449b3a23a2920d61cfc42ece9b61ee287fc50693",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 449b3a23a2920d61cfc42ece9b61ee287fc50693."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 449b3a23a2920d61cfc42ece9b61ee287fc50693; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1902,7 +1902,7 @@
       "timezone": "Pacific/Auckland",
       "lat": -39.276815,
       "lng": 175.604656,
-      "elevation_ft": null,
+      "elevation_ft": 6469,
       "base_elevation_ft": 5511,
       "summit_elevation_ft": 6626,
       "vertical_drop_ft": 1115,
@@ -1962,7 +1962,7 @@
           "name": "OpenSkiMap - Tukino Skifield",
           "url": "https://openskimap.org/?obj=0f4c3b2f20240003452f9ab55690f5b02dee7674",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 0f4c3b2f20240003452f9ab55690f5b02dee7674."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 0f4c3b2f20240003452f9ab55690f5b02dee7674; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -1979,9 +1979,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -39.300665,
       "lng": 175.541186,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 7605,
+      "base_elevation_ft": 5346,
+      "summit_elevation_ft": 7605,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2024,7 +2024,7 @@
           "name": "OpenSkiMap - Turoa",
           "url": "https://openskimap.org/?obj=37981ab9fdd4fdbdd99a6c6b4294ce1ccd473a41",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 37981ab9fdd4fdbdd99a6c6b4294ce1ccd473a41."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 37981ab9fdd4fdbdd99a6c6b4294ce1ccd473a41; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2041,9 +2041,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -39.248183,
       "lng": 175.56025,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 7529,
+      "base_elevation_ft": 5162,
+      "summit_elevation_ft": 7529,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2086,7 +2086,7 @@
           "name": "OpenSkiMap - Whakapapa",
           "url": "https://openskimap.org/?obj=650eebed3cbc4d95ec15ed68c8266794c735683d",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 650eebed3cbc4d95ec15ed68c8266794c735683d."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 650eebed3cbc4d95ec15ed68c8266794c735683d; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2103,9 +2103,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -44.865667,
       "lng": 168.945689,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6158,
+      "base_elevation_ft": 4155,
+      "summit_elevation_ft": 6158,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2141,7 +2141,7 @@
           "name": "OpenSkiMap - Cardrona Alpine Resort",
           "url": "https://openskimap.org/?obj=fc527b6ea2efd07e85b5ace40f8d10544f5e653c",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature fc527b6ea2efd07e85b5ace40f8d10544f5e653c."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature fc527b6ea2efd07e85b5ace40f8d10544f5e653c; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2158,9 +2158,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -44.922286,
       "lng": 168.738201,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5293,
+      "base_elevation_ft": 3829,
+      "summit_elevation_ft": 5293,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2196,7 +2196,7 @@
           "name": "OpenSkiMap - Coronet Peak",
           "url": "https://openskimap.org/?obj=8d51d2e1d9edbc3ea557af7bf0ebaba02c7f7ef8",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 8d51d2e1d9edbc3ea557af7bf0ebaba02c7f7ef8."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 8d51d2e1d9edbc3ea557af7bf0ebaba02c7f7ef8; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2213,9 +2213,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -44.707325,
       "lng": 168.533977,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6060,
+      "base_elevation_ft": 5280,
+      "summit_elevation_ft": 6060,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2260,7 +2260,7 @@
           "name": "OpenSkiMap - Invincible Snowfields",
           "url": "https://openskimap.org/?obj=173087f1427e0f5e839a1d9fa2cdab2de7aaa2e4",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 173087f1427e0f5e839a1d9fa2cdab2de7aaa2e4."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 173087f1427e0f5e839a1d9fa2cdab2de7aaa2e4; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2340,9 +2340,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -45.05526,
       "lng": 168.814545,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6516,
+      "base_elevation_ft": 5272,
+      "summit_elevation_ft": 6516,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2378,7 +2378,7 @@
           "name": "OpenSkiMap - The Remarkables Ski Area",
           "url": "https://openskimap.org/?obj=9ec6aa72300c4464a37e60d6ea94f79fbe1b14e9",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 9ec6aa72300c4464a37e60d6ea94f79fbe1b14e9."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 9ec6aa72300c4464a37e60d6ea94f79fbe1b14e9; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2395,9 +2395,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -44.635599,
       "lng": 168.884448,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6412,
+      "base_elevation_ft": 4103,
+      "summit_elevation_ft": 6412,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2433,7 +2433,7 @@
           "name": "OpenSkiMap - Treble Cone Ski Area",
           "url": "https://openskimap.org/?obj=45287d71d0b6b1b1a17517bffa5aa9c961e023fb",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 45287d71d0b6b1b1a17517bffa5aa9c961e023fb."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 45287d71d0b6b1b1a17517bffa5aa9c961e023fb; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2450,9 +2450,9 @@
       "timezone": "Pacific/Auckland",
       "lat": -39.3016,
       "lng": 174.084105,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5566,
+      "base_elevation_ft": 4138,
+      "summit_elevation_ft": 5566,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2489,7 +2489,7 @@
           "name": "OpenSkiMap - Manganui",
           "url": "https://openskimap.org/?obj=99a7c3830fd8d96e37ee1b4b535a3933be72e515",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 99a7c3830fd8d96e37ee1b4b535a3933be72e515."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 99a7c3830fd8d96e37ee1b4b535a3933be72e515; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -2877,9 +2877,9 @@
       "timezone": "America/Anchorage",
       "lat": 61.743412,
       "lng": -149.237814,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1737,
+      "base_elevation_ft": 1453,
+      "summit_elevation_ft": 1737,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -2908,7 +2908,7 @@
           "name": "OpenSkiMap - Skeetawk",
           "url": "https://openskimap.org/?obj=0132cfcb14305f78fa2c8506aaa8b41f83d017ed",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 0132cfcb14305f78fa2c8506aaa8b41f83d017ed."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 0132cfcb14305f78fa2c8506aaa8b41f83d017ed; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -3602,9 +3602,9 @@
       "timezone": "America/Los_Angeles",
       "lat": 41.554571,
       "lng": -120.265911,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6412,
+      "base_elevation_ft": 6025,
+      "summit_elevation_ft": 6412,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -3634,7 +3634,7 @@
           "name": "OpenSkiMap - Cedar Pass",
           "url": "https://openskimap.org/?obj=7b42bbcc538de162415a3b0cc29e6ddc7426dadc",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 7b42bbcc538de162415a3b0cc29e6ddc7426dadc."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 7b42bbcc538de162415a3b0cc29e6ddc7426dadc; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -3700,9 +3700,9 @@
       "timezone": "America/Los_Angeles",
       "lat": 40.343251,
       "lng": -120.903586,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5820,
+      "base_elevation_ft": 5264,
+      "summit_elevation_ft": 5820,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -3732,7 +3732,7 @@
           "name": "OpenSkiMap - Coppervale",
           "url": "https://openskimap.org/?obj=c144410697ffbce10d411c7215d6aa46d4dc895b",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature c144410697ffbce10d411c7215d6aa46d4dc895b."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature c144410697ffbce10d411c7215d6aa46d4dc895b; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -4910,9 +4910,9 @@
       "timezone": "America/Denver",
       "lat": 39.186443,
       "lng": -106.950206,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 12516,
+      "base_elevation_ft": 8116,
+      "summit_elevation_ft": 12516,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -4942,7 +4942,7 @@
           "name": "OpenSkiMap - Aspen Snowmass",
           "url": "https://openskimap.org/?obj=7d5123086c5d8855b491bf4905f3b6c5e336c846",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 7d5123086c5d8855b491bf4905f3b6c5e336c846."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 7d5123086c5d8855b491bf4905f3b6c5e336c846; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -5184,9 +5184,9 @@
       "timezone": "America/Denver",
       "lat": 39.47767,
       "lng": -106.161249,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 12322,
+      "base_elevation_ft": 9708,
+      "summit_elevation_ft": 12322,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -5216,7 +5216,7 @@
           "name": "OpenSkiMap - Copper Mountain",
           "url": "https://openskimap.org/?obj=7464f379f1806addd8f3976a39005c4628587fac",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 7464f379f1806addd8f3976a39005c4628587fac."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 7464f379f1806addd8f3976a39005c4628587fac; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -5513,9 +5513,9 @@
       "timezone": "America/Denver",
       "lat": 40.474793,
       "lng": -106.83747,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 7171,
+      "base_elevation_ft": 6720,
+      "summit_elevation_ft": 7171,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -5545,7 +5545,7 @@
           "name": "OpenSkiMap - Howelson Hill Ski Area",
           "url": "https://openskimap.org/?obj=9757c4804d9744324b797131e5a94157f60f0230",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 9757c4804d9744324b797131e5a94157f60f0230."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 9757c4804d9744324b797131e5a94157f60f0230; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -5674,9 +5674,9 @@
       "timezone": "America/Denver",
       "lat": 38.010469,
       "lng": -107.313752,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 9080,
+      "base_elevation_ft": 8861,
+      "summit_elevation_ft": 9080,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -5706,7 +5706,7 @@
           "name": "OpenSkiMap - Lake City Ski Hill",
           "url": "https://openskimap.org/?obj=14d2406b0dc4a02322de14ef895c1ffc80bb452e",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 14d2406b0dc4a02322de14ef895c1ffc80bb452e."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 14d2406b0dc4a02322de14ef895c1ffc80bb452e; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -6229,9 +6229,9 @@
       "timezone": "America/Denver",
       "lat": 40.453879,
       "lng": -106.775179,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 10541,
+      "base_elevation_ft": 6894,
+      "summit_elevation_ft": 10541,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -6261,7 +6261,7 @@
           "name": "OpenSkiMap - Steamboat Ski Resort",
           "url": "https://openskimap.org/?obj=9092c1bd90194143f2e1c2fcf7ffecc67ef58670",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 9092c1bd90194143f2e1c2fcf7ffecc67ef58670."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 9092c1bd90194143f2e1c2fcf7ffecc67ef58670; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -6888,9 +6888,9 @@
       "timezone": "America/Chicago",
       "lat": 41.588288,
       "lng": -93.534239,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 909,
+      "base_elevation_ft": 794,
+      "summit_elevation_ft": 909,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -6919,7 +6919,7 @@
           "name": "OpenSkiMap - Sleepy Hollow Sports Park",
           "url": "https://openskimap.org/?obj=2c86717464ed0a640300a164ace5429c511350c2",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 2c86717464ed0a640300a164ace5429c511350c2."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 2c86717464ed0a640300a164ace5429c511350c2; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -7383,9 +7383,9 @@
       "timezone": "America/Boise",
       "lat": 45.69638,
       "lng": -113.957488,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 8186,
+      "base_elevation_ft": 6430,
+      "summit_elevation_ft": 8186,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -7415,7 +7415,7 @@
           "name": "OpenSkiMap - Lost Trail",
           "url": "https://openskimap.org/?obj=471b8ae44681330c6e952ab7b03b96fa172789eb",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 471b8ae44681330c6e952ab7b03b96fa172789eb."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 471b8ae44681330c6e952ab7b03b96fa172789eb; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -8144,9 +8144,9 @@
       "timezone": "America/Chicago",
       "lat": 41.780665,
       "lng": -88.083814,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 748,
+      "base_elevation_ft": 661,
+      "summit_elevation_ft": 748,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -8175,7 +8175,7 @@
           "name": "OpenSkiMap - Four Lakes Village",
           "url": "https://openskimap.org/?obj=39afe6a99acea8a167a0dc0320601f886a53b7c4",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 39afe6a99acea8a167a0dc0320601f886a53b7c4."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 39afe6a99acea8a167a0dc0320601f886a53b7c4; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -8192,9 +8192,9 @@
       "timezone": "America/Chicago",
       "lat": 41.42467,
       "lng": -90.747447,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 787,
+      "base_elevation_ft": 596,
+      "summit_elevation_ft": 787,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -8223,7 +8223,7 @@
           "name": "OpenSkiMap - Ski Snowstar",
           "url": "https://openskimap.org/?obj=79e54932d22f451dd1ec226f35cf438817b7f210",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 79e54932d22f451dd1ec226f35cf438817b7f210."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 79e54932d22f451dd1ec226f35cf438817b7f210; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -8515,9 +8515,9 @@
       "timezone": "America/New_York",
       "lat": 42.415313,
       "lng": -73.279889,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1798,
+      "base_elevation_ft": 1107,
+      "summit_elevation_ft": 1798,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -8546,7 +8546,7 @@
           "name": "OpenSkiMap - Bousquet Mountain",
           "url": "https://openskimap.org/?obj=06121f398f3401a63ad71028effabee3308c1ba5",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 06121f398f3401a63ad71028effabee3308c1ba5."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 06121f398f3401a63ad71028effabee3308c1ba5; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -8618,9 +8618,9 @@
       "timezone": "America/New_York",
       "lat": 42.538332,
       "lng": -72.59314,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 772,
+      "base_elevation_ft": 331,
+      "summit_elevation_ft": 772,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -8650,7 +8650,7 @@
           "name": "OpenSkiMap - Easton Ski Area",
           "url": "https://openskimap.org/?obj=f8403f332b153de26dd05060f11473a99a998ae9",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature f8403f332b153de26dd05060f11473a99a998ae9."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature f8403f332b153de26dd05060f11473a99a998ae9; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -8722,9 +8722,9 @@
       "timezone": "America/New_York",
       "lat": 42.632355,
       "lng": -73.215849,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1577,
+      "base_elevation_ft": 1257,
+      "summit_elevation_ft": 1577,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -8754,7 +8754,7 @@
           "name": "OpenSkiMap - Mount Greylock Ski Club",
           "url": "https://openskimap.org/?obj=89fc55c8807da8e1b507048a58aa5cf92ab18adc",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 89fc55c8807da8e1b507048a58aa5cf92ab18adc."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 89fc55c8807da8e1b507048a58aa5cf92ab18adc; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -8826,9 +8826,9 @@
       "timezone": "America/New_York",
       "lat": 42.195005,
       "lng": -73.100951,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1557,
+      "base_elevation_ft": 1238,
+      "summit_elevation_ft": 1557,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -8857,7 +8857,7 @@
           "name": "OpenSkiMap - Otis Ridge",
           "url": "https://openskimap.org/?obj=89be4a538bd3cd39788d2b9685dc1238c4e3a8bd",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 89be4a538bd3cd39788d2b9685dc1238c4e3a8bd."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 89be4a538bd3cd39788d2b9685dc1238c4e3a8bd; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -9094,9 +9094,9 @@
       "timezone": "America/New_York",
       "lat": 45.087114,
       "lng": -69.909313,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 951,
+      "base_elevation_ft": 555,
+      "summit_elevation_ft": 951,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -9125,7 +9125,7 @@
           "name": "OpenSkiMap - Baker Mountain Ski Area",
           "url": "https://openskimap.org/?obj=3b389d78806f0cd377aa783c3758a86dd4fef50d",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 3b389d78806f0cd377aa783c3758a86dd4fef50d."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 3b389d78806f0cd377aa783c3758a86dd4fef50d; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -9417,9 +9417,9 @@
       "timezone": "America/New_York",
       "lat": 44.779474,
       "lng": -68.960136,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 451,
+      "base_elevation_ft": 181,
+      "summit_elevation_ft": 451,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -9448,7 +9448,7 @@
           "name": "OpenSkiMap - Hermon Mountain",
           "url": "https://openskimap.org/?obj=94587ce349c71ebc07ea6311ac647f001f79f0e3",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 94587ce349c71ebc07ea6311ac647f001f79f0e3."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 94587ce349c71ebc07ea6311ac647f001f79f0e3; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -9465,9 +9465,9 @@
       "timezone": "America/New_York",
       "lat": 47.242543,
       "lng": -68.594816,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 977,
+      "base_elevation_ft": 562,
+      "summit_elevation_ft": 977,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -9496,7 +9496,7 @@
           "name": "OpenSkiMap - Lonesome Pine Trails",
           "url": "https://openskimap.org/?obj=91604b5bd1a440e66148432dca35dd2e723d8552",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 91604b5bd1a440e66148432dca35dd2e723d8552."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 91604b5bd1a440e66148432dca35dd2e723d8552; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -9568,9 +9568,9 @@
       "timezone": "America/New_York",
       "lat": 44.375805,
       "lng": -70.711987,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1987,
+      "base_elevation_ft": 950,
+      "summit_elevation_ft": 1987,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -9599,7 +9599,7 @@
           "name": "OpenSkiMap - Mount Abram",
           "url": "https://openskimap.org/?obj=b5ea00d96d2440442781c3be891d8cdd94cf43e1",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature b5ea00d96d2440442781c3be891d8cdd94cf43e1."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature b5ea00d96d2440442781c3be891d8cdd94cf43e1; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -9671,9 +9671,9 @@
       "timezone": "America/New_York",
       "lat": 44.795676,
       "lng": -69.388826,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 320,
+      "base_elevation_ft": 219,
+      "summit_elevation_ft": 320,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -9702,7 +9702,7 @@
           "name": "OpenSkiMap - Pinnacle Ski Club",
           "url": "https://openskimap.org/?obj=b2cfdcd14840dd3ac62dc8d7d207caf155d8b880",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature b2cfdcd14840dd3ac62dc8d7d207caf155d8b880."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature b2cfdcd14840dd3ac62dc8d7d207caf155d8b880; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -9829,9 +9829,9 @@
       "timezone": "America/New_York",
       "lat": 46.724088,
       "lng": -67.929047,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 899,
+      "base_elevation_ft": 714,
+      "summit_elevation_ft": 899,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -9860,7 +9860,7 @@
           "name": "OpenSkiMap - Quoggy Jo Ski Center",
           "url": "https://openskimap.org/?obj=19c8a6d2e2e0488a5b323456eac857c033c36def",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 19c8a6d2e2e0488a5b323456eac857c033c36def."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 19c8a6d2e2e0488a5b323456eac857c033c36def; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -10915,9 +10915,9 @@
       "timezone": "America/Detroit",
       "lat": 45.33495,
       "lng": -85.246027,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 750,
+      "base_elevation_ft": 604,
+      "summit_elevation_ft": 750,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -10946,7 +10946,7 @@
           "name": "OpenSkiMap - Mt. McSauba",
           "url": "https://openskimap.org/?obj=d05ef6cd70f491bf88d1bc0a322ccf265c6b264c",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature d05ef6cd70f491bf88d1bc0a322ccf265c6b264c."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature d05ef6cd70f491bf88d1bc0a322ccf265c6b264c; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -11238,9 +11238,9 @@
       "timezone": "America/Detroit",
       "lat": 45.37603,
       "lng": -84.94323,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 800,
+      "base_elevation_ft": 720,
+      "summit_elevation_ft": 800,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -11269,7 +11269,7 @@
           "name": "OpenSkiMap - Petoskey Winter Sports Park",
           "url": "https://openskimap.org/?obj=e54e909de58d296115b7c662a76e6a6952951b53",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature e54e909de58d296115b7c662a76e6a6952951b53."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature e54e909de58d296115b7c662a76e6a6952951b53; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -11664,9 +11664,9 @@
       "timezone": "America/Detroit",
       "lat": 41.953345,
       "lng": -85.824873,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1166,
+      "base_elevation_ft": 982,
+      "summit_elevation_ft": 1166,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -11695,7 +11695,7 @@
           "name": "OpenSkiMap - Swiss Valley Ski Lodge",
           "url": "https://openskimap.org/?obj=b27859e39a0375ed460b4ed9556937322d8e5bb6",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature b27859e39a0375ed460b4ed9556937322d8e5bb6."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature b27859e39a0375ed460b4ed9556937322d8e5bb6; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -12537,9 +12537,9 @@
       "timezone": "America/Chicago",
       "lat": 47.283724,
       "lng": -93.45002,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1493,
+      "base_elevation_ft": 1315,
+      "summit_elevation_ft": 1493,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -12568,7 +12568,7 @@
           "name": "OpenSkiMap - Mount Itasca",
           "url": "https://openskimap.org/?obj=ba6ea6a2242dfb01bfc95a07f3aa6bd4920264c4",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature ba6ea6a2242dfb01bfc95a07f3aa6bd4920264c4."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature ba6ea6a2242dfb01bfc95a07f3aa6bd4920264c4; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -13858,9 +13858,9 @@
       "timezone": "America/Denver",
       "lat": 45.23852,
       "lng": -111.431265,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 9846,
+      "base_elevation_ft": 7186,
+      "summit_elevation_ft": 9846,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -13891,7 +13891,7 @@
           "name": "OpenSkiMap - Yellowstone Club",
           "url": "https://openskimap.org/?obj=f733f44e7f4ba14c3270c734a10424ed8ff5905f",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature f733f44e7f4ba14c3270c734a10424ed8ff5905f."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature f733f44e7f4ba14c3270c734a10424ed8ff5905f; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -14018,9 +14018,9 @@
       "timezone": "America/New_York",
       "lat": 35.951156,
       "lng": -82.507333,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 4588,
+      "base_elevation_ft": 3945,
+      "summit_elevation_ft": 4588,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -14049,7 +14049,7 @@
           "name": "OpenSkiMap - Hatley Pointe",
           "url": "https://openskimap.org/?obj=c47fd3b0773df5502a5df4261568bf96630b16dc",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature c47fd3b0773df5502a5df4261568bf96630b16dc."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature c47fd3b0773df5502a5df4261568bf96630b16dc; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -14451,9 +14451,9 @@
       "timezone": "America/New_York",
       "lat": 43.361815,
       "lng": -72.331901,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 740,
+      "base_elevation_ft": 600,
+      "summit_elevation_ft": 740,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -14482,7 +14482,7 @@
           "name": "OpenSkiMap - Arrowhead Recreation Area",
           "url": "https://openskimap.org/?obj=5257b4cce8eab0b22d3edd1f940e222c446cec6b",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 5257b4cce8eab0b22d3edd1f940e222c446cec6b."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 5257b4cce8eab0b22d3edd1f940e222c446cec6b; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -14829,9 +14829,9 @@
       "timezone": "America/New_York",
       "lat": 43.007664,
       "lng": -71.879002,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1917,
+      "base_elevation_ft": 1036,
+      "summit_elevation_ft": 1917,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -14860,7 +14860,7 @@
           "name": "OpenSkiMap - Crotched Mountain Ski & Ride",
           "url": "https://openskimap.org/?obj=6fdde2a846d545fcbd14bb1b1d22342bf5ff2989",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 6fdde2a846d545fcbd14bb1b1d22342bf5ff2989."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 6fdde2a846d545fcbd14bb1b1d22342bf5ff2989; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -14932,9 +14932,9 @@
       "timezone": "America/New_York",
       "lat": 43.443101,
       "lng": -71.691386,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1002,
+      "base_elevation_ft": 774,
+      "summit_elevation_ft": 1002,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -14963,7 +14963,7 @@
           "name": "OpenSkiMap - Veterans Memorial Ski Area",
           "url": "https://openskimap.org/?obj=62da9c9a6f175c5f0c21589f851ccbd452988605",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 62da9c9a6f175c5f0c21589f851ccbd452988605."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 62da9c9a6f175c5f0c21589f851ccbd452988605; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -16549,9 +16549,9 @@
       "timezone": "America/Denver",
       "lat": 32.948297,
       "lng": -105.708697,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 8961,
+      "base_elevation_ft": 8331,
+      "summit_elevation_ft": 8961,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -16581,7 +16581,7 @@
           "name": "OpenSkiMap - Ski Cloudcroft",
           "url": "https://openskimap.org/?obj=d0b8bb1bdd1a6f670738ac69ef094f52631018b5",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature d0b8bb1bdd1a6f670738ac69ef094f52631018b5."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature d0b8bb1bdd1a6f670738ac69ef094f52631018b5; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -16822,9 +16822,9 @@
       "timezone": "America/Los_Angeles",
       "lat": 36.300634,
       "lng": -115.680067,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 9350,
+      "base_elevation_ft": 8585,
+      "summit_elevation_ft": 9350,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -16854,7 +16854,7 @@
           "name": "OpenSkiMap - Lee Canyon",
           "url": "https://openskimap.org/?obj=0018b9a7e706f9b7df256c27e759ac2c9c16d7ec",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 0018b9a7e706f9b7df256c27e759ac2c9c16d7ec."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 0018b9a7e706f9b7df256c27e759ac2c9c16d7ec; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -17038,9 +17038,9 @@
       "timezone": "America/New_York",
       "lat": 42.132582,
       "lng": -74.512023,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 3428,
+      "base_elevation_ft": 2054,
+      "summit_elevation_ft": 3428,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -17069,7 +17069,7 @@
           "name": "OpenSkiMap - Belleayre Mountain Ski Center",
           "url": "https://openskimap.org/?obj=8477e343b0af5c6d75f1a3d08329339d3417cc6b",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 8477e343b0af5c6d75f1a3d08329339d3417cc6b."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 8477e343b0af5c6d75f1a3d08329339d3417cc6b; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -17086,9 +17086,9 @@
       "timezone": "America/New_York",
       "lat": 44.167725,
       "lng": -74.477701,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 3006,
+      "base_elevation_ft": 1994,
+      "summit_elevation_ft": 3006,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -17117,7 +17117,7 @@
           "name": "OpenSkiMap - Big Tupper",
           "url": "https://openskimap.org/?obj=fa4409b7ee22dfcfa79db3c61b68389dd4b38edb",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature fa4409b7ee22dfcfa79db3c61b68389dd4b38edb."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature fa4409b7ee22dfcfa79db3c61b68389dd4b38edb; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -17519,9 +17519,9 @@
       "timezone": "America/New_York",
       "lat": 43.471293,
       "lng": -73.811361,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1772,
+      "base_elevation_ft": 685,
+      "summit_elevation_ft": 1772,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -17550,7 +17550,7 @@
           "name": "OpenSkiMap - Hickory Ski Center",
           "url": "https://openskimap.org/?obj=7d1fbb188570d0b702b07a245a264109a6373ecb",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 7d1fbb188570d0b702b07a245a264109a6373ecb."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 7d1fbb188570d0b702b07a245a264109a6373ecb; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -17677,9 +17677,9 @@
       "timezone": "America/New_York",
       "lat": 42.26972,
       "lng": -78.686215,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 2258,
+      "base_elevation_ft": 1588,
+      "summit_elevation_ft": 2258,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -17708,7 +17708,7 @@
           "name": "OpenSkiMap - Holimont",
           "url": "https://openskimap.org/?obj=88096c8efefa8d00bdf8423623ae53b4f4d66e18",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 88096c8efefa8d00bdf8423623ae53b4f4d66e18."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 88096c8efefa8d00bdf8423623ae53b4f4d66e18; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -18591,9 +18591,9 @@
       "timezone": "America/New_York",
       "lat": 41.392948,
       "lng": -73.981948,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 972,
+      "base_elevation_ft": 469,
+      "summit_elevation_ft": 972,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -18622,7 +18622,7 @@
           "name": "OpenSkiMap - Victor Constant Ski Area",
           "url": "https://openskimap.org/?obj=9ee51a76e251eabd3129f069abc91a43d45956ee",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 9ee51a76e251eabd3129f069abc91a43d45956ee."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 9ee51a76e251eabd3129f069abc91a43d45956ee; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -20006,9 +20006,9 @@
       "timezone": "America/New_York",
       "lat": 40.460095,
       "lng": -79.748911,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1266,
+      "base_elevation_ft": 1107,
+      "summit_elevation_ft": 1266,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -20037,7 +20037,7 @@
           "name": "OpenSkiMap - Boyce Park Ski Area",
           "url": "https://openskimap.org/?obj=888cc55d80aa977f5a7773493278c093df64db49",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 888cc55d80aa977f5a7773493278c093df64db49."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 888cc55d80aa977f5a7773493278c093df64db49; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -20109,9 +20109,9 @@
       "timezone": "America/New_York",
       "lat": 40.927154,
       "lng": -76.107366,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1800,
+      "base_elevation_ft": 1308,
+      "summit_elevation_ft": 1800,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -20140,7 +20140,7 @@
           "name": "OpenSkiMap - Eagle Rock Ski Resort",
           "url": "https://openskimap.org/?obj=42d8029648b2599dc6ceb1968f49c9257853ae37",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 42d8029648b2599dc6ceb1968f49c9257853ae37."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 42d8029648b2599dc6ceb1968f49c9257853ae37; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -20872,9 +20872,9 @@
       "timezone": "America/New_York",
       "lat": 40.270406,
       "lng": -75.453034,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 507,
+      "base_elevation_ft": 168,
+      "summit_elevation_ft": 507,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -20903,7 +20903,7 @@
           "name": "OpenSkiMap - Spring Mountain Ski Area",
           "url": "https://openskimap.org/?obj=3112bd645c20300f8772f5ce62b573fe70006d31",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 3112bd645c20300f8772f5ce62b573fe70006d31."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 3112bd645c20300f8772f5ce62b573fe70006d31; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -22230,9 +22230,9 @@
       "timezone": "America/Denver",
       "lat": 40.751379,
       "lng": -111.583506,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 6799,
+      "base_elevation_ft": 6445,
+      "summit_elevation_ft": 6799,
       "vertical_drop_ft": 349,
       "status": "active",
       "is_active": true,
@@ -22269,7 +22269,7 @@
           "name": "OpenSkiMap - Woodward",
           "url": "https://openskimap.org/?obj=10e653821b2144b1903aa472805dea5d27c8f7bd",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 10e653821b2144b1903aa472805dea5d27c8f7bd."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 10e653821b2144b1903aa472805dea5d27c8f7bd; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -22506,9 +22506,9 @@
       "timezone": "America/New_York",
       "lat": 43.462479,
       "lng": -72.463575,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1219,
+      "base_elevation_ft": 776,
+      "summit_elevation_ft": 1219,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -22537,7 +22537,7 @@
           "name": "OpenSkiMap - Ascutney Outdoors",
           "url": "https://openskimap.org/?obj=368c9d2a89055b59945b0c2df9ec60464eb6a00c",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 368c9d2a89055b59945b0c2df9ec60464eb6a00c."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 368c9d2a89055b59945b0c2df9ec60464eb6a00c; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -22554,9 +22554,9 @@
       "timezone": "America/New_York",
       "lat": 43.128575,
       "lng": -72.454674,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 646,
+      "base_elevation_ft": 416,
+      "summit_elevation_ft": 646,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -22585,7 +22585,7 @@
           "name": "OpenSkiMap - Bellows Falls Ski Tow",
           "url": "https://openskimap.org/?obj=04a734d54fd6a797f6ac3eefc5483da8ad5edb1f",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 04a734d54fd6a797f6ac3eefc5483da8ad5edb1f."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 04a734d54fd6a797f6ac3eefc5483da8ad5edb1f; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -22822,9 +22822,9 @@
       "timezone": "America/New_York",
       "lat": 44.815852,
       "lng": -73.068499,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 771,
+      "base_elevation_ft": 621,
+      "summit_elevation_ft": 771,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -22853,7 +22853,7 @@
           "name": "OpenSkiMap - Hard'Ack Ski Area",
           "url": "https://openskimap.org/?obj=f5cf536f71be803eb093732768407a3f708f64fc",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature f5cf536f71be803eb093732768407a3f708f64fc."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature f5cf536f71be803eb093732768407a3f708f64fc; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -22870,9 +22870,9 @@
       "timezone": "America/New_York",
       "lat": 43.835054,
       "lng": -72.371286,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1154,
+      "base_elevation_ft": 991,
+      "summit_elevation_ft": 1154,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -22901,7 +22901,7 @@
           "name": "OpenSkiMap - Harrington Hill",
           "url": "https://openskimap.org/?obj=8d1c51734f71b5355921070dc8af122674659523",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 8d1c51734f71b5355921070dc8af122674659523."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 8d1c51734f71b5355921070dc8af122674659523; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -22918,9 +22918,9 @@
       "timezone": "America/New_York",
       "lat": 42.923999,
       "lng": -72.900618,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 3206,
+      "base_elevation_ft": 1800,
+      "summit_elevation_ft": 3206,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -22950,7 +22950,7 @@
           "name": "OpenSkiMap - The Hermitage Club at Haystack Mountain",
           "url": "https://openskimap.org/?obj=50eb942b36743a5581595460a1a1cb747a89d4a4",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 50eb942b36743a5581595460a1a1cb747a89d4a4."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 50eb942b36743a5581595460a1a1cb747a89d4a4; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -23408,9 +23408,9 @@
       "timezone": "America/New_York",
       "lat": 44.071383,
       "lng": -72.252656,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1145,
+      "base_elevation_ft": 809,
+      "summit_elevation_ft": 1145,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -23439,7 +23439,7 @@
           "name": "OpenSkiMap - Northeast Slopes",
           "url": "https://openskimap.org/?obj=2ac590778d83b376c4e4f397a0e2ff56b0a1f30c",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 2ac590778d83b376c4e4f397a0e2ff56b0a1f30c."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 2ac590778d83b376c4e4f397a0e2ff56b0a1f30c; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -23566,9 +23566,9 @@
       "timezone": "America/New_York",
       "lat": 43.531244,
       "lng": -72.750498,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 2381,
+      "base_elevation_ft": 2260,
+      "summit_elevation_ft": 2381,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -23598,7 +23598,7 @@
           "name": "OpenSkiMap - Plymouth Notch",
           "url": "https://openskimap.org/?obj=0142a50b7da1cfd4d92350145fda2eef07767784",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 0142a50b7da1cfd4d92350145fda2eef07767784."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 0142a50b7da1cfd4d92350145fda2eef07767784; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -23615,9 +23615,9 @@
       "timezone": "America/New_York",
       "lat": 43.660118,
       "lng": -72.445629,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1236,
+      "base_elevation_ft": 647,
+      "summit_elevation_ft": 1236,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -23647,7 +23647,7 @@
           "name": "OpenSkiMap - Ski Quechee",
           "url": "https://openskimap.org/?obj=e83f8a34eaa10c57478bb8ac57558f18b4d227c2",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature e83f8a34eaa10c57478bb8ac57558f18b4d227c2."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature e83f8a34eaa10c57478bb8ac57558f18b4d227c2; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -23995,9 +23995,9 @@
       "timezone": "America/Los_Angeles",
       "lat": 47.441087,
       "lng": -121.435179,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 5443,
+      "base_elevation_ft": 3142,
+      "summit_elevation_ft": 5443,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -24028,7 +24028,7 @@
           "name": "OpenSkiMap - Alpental",
           "url": "https://openskimap.org/?obj=d614053877b338a4708156d3b8073e04c9387b1e",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature d614053877b338a4708156d3b8073e04c9387b1e."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature d614053877b338a4708156d3b8073e04c9387b1e; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -24381,9 +24381,9 @@
       "timezone": "America/Los_Angeles",
       "lat": 47.278081,
       "lng": -121.320711,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 3376,
+      "base_elevation_ft": 2923,
+      "summit_elevation_ft": 3376,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -24414,7 +24414,7 @@
           "name": "OpenSkiMap - Meany Lodge",
           "url": "https://openskimap.org/?obj=2301703a1c6ede52c299474292da76643ec9ba38",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 2301703a1c6ede52c299474292da76643ec9ba38."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 2301703a1c6ede52c299474292da76643ec9ba38; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -24599,9 +24599,9 @@
       "timezone": "America/Los_Angeles",
       "lat": 47.431697,
       "lng": -121.415817,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 3064,
+      "base_elevation_ft": 2956,
+      "summit_elevation_ft": 3064,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -24632,7 +24632,7 @@
           "name": "OpenSkiMap - Sahalie Ski Club",
           "url": "https://openskimap.org/?obj=10804bdf3993ddd90a37f90a8b9dbf475c1723a1",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 10804bdf3993ddd90a37f90a8b9dbf475c1723a1."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 10804bdf3993ddd90a37f90a8b9dbf475c1723a1; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -25134,9 +25134,9 @@
       "timezone": "America/Chicago",
       "lat": 43.133432,
       "lng": -88.26601,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1149,
+      "base_elevation_ft": 966,
+      "summit_elevation_ft": 1149,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -25166,7 +25166,7 @@
           "name": "OpenSkiMap - Ausblick Ski Hill",
           "url": "https://openskimap.org/?obj=212446dff30990555e8f47b029c15337ca86693c",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 212446dff30990555e8f47b029c15337ca86693c."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 212446dff30990555e8f47b029c15337ca86693c; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -25183,9 +25183,9 @@
       "timezone": "America/Chicago",
       "lat": 44.97267,
       "lng": -92.641268,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1043,
+      "base_elevation_ft": 930,
+      "summit_elevation_ft": 1043,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -25214,7 +25214,7 @@
           "name": "OpenSkiMap - Badlands Snow Park",
           "url": "https://openskimap.org/?obj=28f50fc2c331c080aa96c729b5e7dbce4dcf0ed0",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 28f50fc2c331c080aa96c729b5e7dbce4dcf0ed0."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 28f50fc2c331c080aa96c729b5e7dbce4dcf0ed0; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -25231,9 +25231,9 @@
       "timezone": "America/Chicago",
       "lat": 43.084742,
       "lng": -89.568753,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1073,
+      "base_elevation_ft": 927,
+      "summit_elevation_ft": 1073,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -25263,7 +25263,7 @@
           "name": "OpenSkiMap - Blackhawk Ski Club",
           "url": "https://openskimap.org/?obj=bf2f99115f8b8c79c21739df328e6faebc56cae6",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature bf2f99115f8b8c79c21739df328e6faebc56cae6."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature bf2f99115f8b8c79c21739df328e6faebc56cae6; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -25596,9 +25596,9 @@
       "timezone": "America/Chicago",
       "lat": 42.921572,
       "lng": -88.016512,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 927,
+      "base_elevation_ft": 703,
+      "summit_elevation_ft": 927,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -25627,7 +25627,7 @@
           "name": "OpenSkiMap - Crystal Ridge (Rock Snowpark)",
           "url": "https://openskimap.org/?obj=be01915771385f375ebca6c4d1f264bef0977ac1",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature be01915771385f375ebca6c4d1f264bef0977ac1."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature be01915771385f375ebca6c4d1f264bef0977ac1; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -25699,9 +25699,9 @@
       "timezone": "America/Chicago",
       "lat": 43.3744,
       "lng": -88.251754,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1254,
+      "base_elevation_ft": 1031,
+      "summit_elevation_ft": 1254,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -25731,7 +25731,7 @@
           "name": "OpenSkiMap - Fox Hill Ski Area",
           "url": "https://openskimap.org/?obj=37663accf181af4eefccffbcba50629d859e33f7",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 37663accf181af4eefccffbcba50629d859e33f7."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 37663accf181af4eefccffbcba50629d859e33f7; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -25803,9 +25803,9 @@
       "timezone": "America/Chicago",
       "lat": 43.252641,
       "lng": -88.313138,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1276,
+      "base_elevation_ft": 1025,
+      "summit_elevation_ft": 1276,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -25835,7 +25835,7 @@
           "name": "OpenSkiMap - Heiliger Huegel Ski Club",
           "url": "https://openskimap.org/?obj=671b129f79e83993f97733e1e2521d9cff9c9cb2",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 671b129f79e83993f97733e1e2521d9cff9c9cb2."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 671b129f79e83993f97733e1e2521d9cff9c9cb2; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -25962,9 +25962,9 @@
       "timezone": "America/Chicago",
       "lat": 45.894601,
       "lng": -88.297662,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1488,
+      "base_elevation_ft": 1312,
+      "summit_elevation_ft": 1488,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -25993,7 +25993,7 @@
           "name": "OpenSkiMap - Keyes Peak Ski Area",
           "url": "https://openskimap.org/?obj=3a6d4f1d2cc4e5d6a0f2a114e018d92ccf1e4c07",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 3a6d4f1d2cc4e5d6a0f2a114e018d92ccf1e4c07."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 3a6d4f1d2cc4e5d6a0f2a114e018d92ccf1e4c07; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26120,9 +26120,9 @@
       "timezone": "America/Chicago",
       "lat": 46.782986,
       "lng": -90.912091,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1315,
+      "base_elevation_ft": 771,
+      "summit_elevation_ft": 1315,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26151,7 +26151,7 @@
           "name": "OpenSkiMap - Mount Ashwabay",
           "url": "https://openskimap.org/?obj=49d77e1e8cc23e09186ac9d00002c7c6e9a09fbd",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 49d77e1e8cc23e09186ac9d00002c7c6e9a09fbd."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 49d77e1e8cc23e09186ac9d00002c7c6e9a09fbd; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26168,9 +26168,9 @@
       "timezone": "America/Chicago",
       "lat": 43.741382,
       "lng": -91.182253,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1171,
+      "base_elevation_ft": 736,
+      "summit_elevation_ft": 1171,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26199,7 +26199,7 @@
           "name": "OpenSkiMap - Mt. La Crosse",
           "url": "https://openskimap.org/?obj=e51c409addd6be6b5ef75a6c4841cc1535b923e0",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature e51c409addd6be6b5ef75a6c4841cc1535b923e0."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature e51c409addd6be6b5ef75a6c4841cc1535b923e0; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26326,9 +26326,9 @@
       "timezone": "America/Chicago",
       "lat": 43.751409,
       "lng": -87.990396,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1012,
+      "base_elevation_ft": 895,
+      "summit_elevation_ft": 1012,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26357,7 +26357,7 @@
           "name": "OpenSkiMap - Nutt Hill",
           "url": "https://openskimap.org/?obj=cf6f9328c7b0d42b6db680a8f5542ea3c6d28462",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature cf6f9328c7b0d42b6db680a8f5542ea3c6d28462."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature cf6f9328c7b0d42b6db680a8f5542ea3c6d28462; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26374,9 +26374,9 @@
       "timezone": "America/Chicago",
       "lat": 44.531073,
       "lng": -90.071629,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1434,
+      "base_elevation_ft": 1320,
+      "summit_elevation_ft": 1434,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26405,7 +26405,7 @@
           "name": "OpenSkiMap - Powers Bluff",
           "url": "https://openskimap.org/?obj=03e291cc8f4d388d505793991857ad5ce07f4d2d",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 03e291cc8f4d388d505793991857ad5ce07f4d2d."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 03e291cc8f4d388d505793991857ad5ce07f4d2d; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26422,9 +26422,9 @@
       "timezone": "America/Chicago",
       "lat": 44.436225,
       "lng": -89.407721,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1246,
+      "base_elevation_ft": 1103,
+      "summit_elevation_ft": 1246,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26453,7 +26453,7 @@
           "name": "OpenSkiMap - Standing Rocks",
           "url": "https://openskimap.org/?obj=f33ff16fe233511b463b54cab9a78c05f7cc8f92",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature f33ff16fe233511b463b54cab9a78c05f7cc8f92."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature f33ff16fe233511b463b54cab9a78c05f7cc8f92; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26470,9 +26470,9 @@
       "timezone": "America/Chicago",
       "lat": 43.494637,
       "lng": -88.224328,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1169,
+      "base_elevation_ft": 971,
+      "summit_elevation_ft": 1169,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26501,7 +26501,7 @@
           "name": "OpenSkiMap - Sunburst Ski Area",
           "url": "https://openskimap.org/?obj=8a12bad9ec88beeb2953c79e1018b493cec2165d",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 8a12bad9ec88beeb2953c79e1018b493cec2165d."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 8a12bad9ec88beeb2953c79e1018b493cec2165d; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26518,9 +26518,9 @@
       "timezone": "America/Chicago",
       "lat": 46.15169,
       "lng": -91.271657,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1740,
+      "base_elevation_ft": 1290,
+      "summit_elevation_ft": 1740,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26549,7 +26549,7 @@
           "name": "OpenSkiMap - Mount Telemark Village",
           "url": "https://openskimap.org/?obj=0e85b162d28a3c874faba148a639e7d7bb89aada",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 0e85b162d28a3c874faba148a639e7d7bb89aada."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 0e85b162d28a3c874faba148a639e7d7bb89aada; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26566,9 +26566,9 @@
       "timezone": "America/Chicago",
       "lat": 42.610619,
       "lng": -88.388298,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 962,
+      "base_elevation_ft": 839,
+      "summit_elevation_ft": 962,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -26597,7 +26597,7 @@
           "name": "OpenSkiMap - The Mountain Top at Grand Geneva Resort & Spa",
           "url": "https://openskimap.org/?obj=8eb2a3d242ab9540f1725f3352ecd505a9cf4210",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 8eb2a3d242ab9540f1725f3352ecd505a9cf4210."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 8eb2a3d242ab9540f1725f3352ecd505a9cf4210; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -26999,9 +26999,9 @@
       "timezone": "America/New_York",
       "lat": 40.109449,
       "lng": -80.651941,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 1274,
+      "base_elevation_ft": 1108,
+      "summit_elevation_ft": 1274,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -27030,7 +27030,7 @@
           "name": "OpenSkiMap - Oglebay Ski and Snowboard Area",
           "url": "https://openskimap.org/?obj=f14a2a28e55757062f6370277cc47cf426d2072d",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature f14a2a28e55757062f6370277cc47cf426d2072d."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature f14a2a28e55757062f6370277cc47cf426d2072d; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -27102,9 +27102,9 @@
       "timezone": "America/New_York",
       "lat": 39.037352,
       "lng": -79.39476,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 4259,
+      "base_elevation_ft": 3288,
+      "summit_elevation_ft": 4259,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -27133,7 +27133,7 @@
           "name": "OpenSkiMap - Timberline Mountain",
           "url": "https://openskimap.org/?obj=1bd13c04ca7b75eb2ae2189493629f8112455ff6",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 1bd13c04ca7b75eb2ae2189493629f8112455ff6."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 1bd13c04ca7b75eb2ae2189493629f8112455ff6; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -27205,9 +27205,9 @@
       "timezone": "America/Denver",
       "lat": 44.606834,
       "lng": -107.51618,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 9367,
+      "base_elevation_ft": 8418,
+      "summit_elevation_ft": 9367,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -27237,7 +27237,7 @@
           "name": "OpenSkiMap - Antelope Butte Ski Area",
           "url": "https://openskimap.org/?obj=1831ee26f69e1e486670bfce7b613ced5bdd1715",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 1831ee26f69e1e486670bfce7b613ced5bdd1715."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 1831ee26f69e1e486670bfce7b613ced5bdd1715; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
@@ -27254,9 +27254,9 @@
       "timezone": "America/Denver",
       "lat": 44.977155,
       "lng": -109.435241,
-      "elevation_ft": null,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
+      "elevation_ft": 10921,
+      "base_elevation_ft": 10377,
+      "summit_elevation_ft": 10921,
       "vertical_drop_ft": null,
       "status": "active",
       "is_active": true,
@@ -27286,7 +27286,7 @@
           "name": "OpenSkiMap - Beartooth Basin Summer Ski Area",
           "url": "https://openskimap.org/?obj=4852b9e124639258bc4dc12730a4543553d9df33",
           "retrieved_at": "2026-04-13",
-          "note": "Used for coordinates from local OpenSkiMap ski_areas.geojson feature 4852b9e124639258bc4dc12730a4543553d9df33."
+          "note": "Used for coordinates and elevation statistics from local OpenSkiMap ski_areas.geojson feature 4852b9e124639258bc4dc12730a4543553d9df33; minElevation/maxElevation converted from meters to feet."
         }
       ]
     },
