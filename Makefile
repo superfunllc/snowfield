@@ -13,7 +13,7 @@ ifneq ($(strip $(GENERATED_AT)),)
 EXPORT_ARGS += --generated-at $(GENERATED_AT)
 endif
 
-.PHONY: validate export test clean
+.PHONY: validate export export-dev test clean
 
 validate:
 	$(SNOWFIELD) validate --dataset $(DATASET) --schema $(SCHEMA)
@@ -21,6 +21,10 @@ validate:
 export:
 	$(SNOWFIELD) export $(EXPORT_ARGS)
 
+export-dev:
+	$(MAKE) export \
+	  DATASET_VERSION="snow-fields-$(shell date -u +'%Y%m%dT%H%M%SZ')-0-$(shell git rev-parse --short=12 HEAD)" \
+	  GENERATED_AT="$(shell date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
 test:
 	go test ./...
