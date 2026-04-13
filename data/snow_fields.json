@@ -1263,15 +1263,17 @@
       "elevation_ft": 10550,
       "base_elevation_ft": null,
       "summit_elevation_ft": null,
-      "vertical_drop_ft": null,
+      "vertical_drop_ft": 2538,
       "status": "active",
       "is_active": true,
-      "is_verified": false,
+      "is_verified": true,
       "tags": [
         "current_us_west",
-        "snowpool_bootstrap"
+        "ski_only",
+        "snowpool_bootstrap",
+        "utah_ski_resorts"
       ],
-      "updated_at": "2026-04-12",
+      "updated_at": "2026-04-13",
       "sources": [
         {
           "type": "snowpool_migration",
@@ -1279,6 +1281,125 @@
           "url": null,
           "retrieved_at": "2026-04-12",
           "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        },
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 2538 ft vertical drop for Alta Ski Area. Used for ski-only classification."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Alta. User request identified this resort as ski only."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-beaver-mountain",
+      "slug": "us-ut-beaver-mountain",
+      "source": "skiutah",
+      "source_id": "resorts#beaver-mountain",
+      "name": "Beaver Mountain",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Logan Canyon",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 1700,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 1700 ft vertical drop for Beaver Mountain."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Logan Canyon."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-brian-head",
+      "slug": "us-ut-brian-head",
+      "source": "skiutah",
+      "source_id": "resorts#brian-head",
+      "name": "Brian Head",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Brian Head",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 1320,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 1320 ft vertical drop for Brian Head Ski Resort."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Brian Head."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
         }
       ]
     },
@@ -1291,22 +1412,23 @@
       "country_code": "US",
       "region_code": "UT",
       "region_name": "Utah",
-      "locality": "Brighton",
+      "locality": "Big Cottonwood Canyon",
       "timezone": "America/Denver",
       "lat": null,
       "lng": null,
       "elevation_ft": 10500,
       "base_elevation_ft": null,
       "summit_elevation_ft": null,
-      "vertical_drop_ft": null,
+      "vertical_drop_ft": 1745,
       "status": "active",
       "is_active": true,
-      "is_verified": false,
+      "is_verified": true,
       "tags": [
         "current_us_west",
-        "snowpool_bootstrap"
+        "snowpool_bootstrap",
+        "utah_ski_resorts"
       ],
-      "updated_at": "2026-04-12",
+      "updated_at": "2026-04-13",
       "sources": [
         {
           "type": "snowpool_migration",
@@ -1314,6 +1436,371 @@
           "url": null,
           "retrieved_at": "2026-04-12",
           "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        },
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 1745 ft vertical drop for Brighton."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Big Cottonwood Canyon."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-cherry-peak-resort",
+      "slug": "us-ut-cherry-peak-resort",
+      "source": "skiutah",
+      "source_id": "resorts#cherry-peak-resort",
+      "name": "Cherry Peak Resort",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Richmond",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 1265,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 1265 ft vertical drop for Cherry Peak."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Richmond."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-deer-valley",
+      "slug": "us-ut-deer-valley",
+      "source": "skiutah",
+      "source_id": "resorts#deer-valley",
+      "name": "Deer Valley",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Park City",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 3040,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "ski_only",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 3040 ft vertical drop for Deer Valley Resort. Used for ski-only classification."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Park City. User request identified this resort as ski only."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-eagle-point-ski-resort",
+      "slug": "us-ut-eagle-point-ski-resort",
+      "source": "skiutah",
+      "source_id": "resorts#eagle-point-ski-resort",
+      "name": "Eagle Point Ski Resort",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Beaver",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 1500,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 1500 ft vertical drop for Eagle Point."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Beaver."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-nordic-valley",
+      "slug": "us-ut-nordic-valley",
+      "source": "skiutah",
+      "source_id": "resorts#nordic-valley",
+      "name": "Nordic Valley",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Eden",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 1695,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 1695 ft vertical drop for Nordic Valley."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Eden."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-park-city-mountain-resort",
+      "slug": "us-ut-park-city-mountain-resort",
+      "source": "skiutah",
+      "source_id": "resorts#park-city-mountain-resort",
+      "name": "Park City Mountain Resort",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Park City",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 3226,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 3226 ft vertical drop for Park City Mountain."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Park City."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-powder-mountain",
+      "slug": "us-ut-powder-mountain",
+      "source": "skiutah",
+      "source_id": "resorts#powder-mountain",
+      "name": "Powder Mountain",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Eden",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 2519,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 2519 ft vertical drop for Powder Mountain."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Eden."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-snowbasin",
+      "slug": "us-ut-snowbasin",
+      "source": "skiutah",
+      "source_id": "resorts#snowbasin",
+      "name": "Snowbasin",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Huntsville",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 3254,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 3254 ft vertical drop for Snowbasin Resort."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Huntsville."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
         }
       ]
     },
@@ -1333,15 +1820,16 @@
       "elevation_ft": 11000,
       "base_elevation_ft": null,
       "summit_elevation_ft": null,
-      "vertical_drop_ft": null,
+      "vertical_drop_ft": 3240,
       "status": "active",
       "is_active": true,
-      "is_verified": false,
+      "is_verified": true,
       "tags": [
         "current_us_west",
-        "snowpool_bootstrap"
+        "snowpool_bootstrap",
+        "utah_ski_resorts"
       ],
-      "updated_at": "2026-04-12",
+      "updated_at": "2026-04-13",
       "sources": [
         {
           "type": "snowpool_migration",
@@ -1349,6 +1837,174 @@
           "url": null,
           "retrieved_at": "2026-04-12",
           "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        },
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 3240 ft vertical drop for Snowbird."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Snowbird."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-solitude",
+      "slug": "us-ut-solitude",
+      "source": "skiutah",
+      "source_id": "resorts#solitude",
+      "name": "Solitude",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Big Cottonwood Canyon",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 2494,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 2494 ft vertical drop for Solitude Mountain Resort."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Big Cottonwood Canyon."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-sundance",
+      "slug": "us-ut-sundance",
+      "source": "skiutah",
+      "source_id": "resorts#sundance",
+      "name": "Sundance",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Provo",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 2150,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 2150 ft vertical drop for Sundance Mountain Resort."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Provo."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ut-woodward-park-city",
+      "slug": "us-ut-woodward-park-city",
+      "source": "skiutah",
+      "source_id": "resorts#woodward-park-city",
+      "name": "Woodward Park City",
+      "country_code": "US",
+      "region_code": "UT",
+      "region_name": "Utah",
+      "locality": "Park City",
+      "timezone": "America/Denver",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 349,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "current_us_west",
+        "utah_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "skiutah",
+          "name": "Ski Utah - Resorts Listing",
+          "url": "https://www.skiutah.com/resorts/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Utah resort listing and 349 ft vertical drop for WoodwardPC."
+        },
+        {
+          "type": "user_request",
+          "name": "User-provided Utah snow fields list",
+          "url": null,
+          "retrieved_at": "2026-04-13",
+          "note": "User request supplied locality label: Park City."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/Denver timezone on Utah records."
         }
       ]
     }
