@@ -2938,6 +2938,915 @@
       ]
     },
     {
+      "catalog_id": "snowpool:us-pa-bear-creek-mountain-resort",
+      "slug": "us-pa-bear-creek-mountain-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#bear-creek-mountain-resort",
+      "name": "Bear Creek Mountain Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Macungie",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Bear Creek Mountain Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-blue-knob-all-seasons-resort",
+      "slug": "us-pa-blue-knob-all-seasons-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#blue-knob-all-seasons-resort",
+      "name": "Blue Knob All Seasons Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Claysburg",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Blue Knob All Seasons Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-blue-mountain-resort",
+      "slug": "us-pa-blue-mountain-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#blue-mountain-resort",
+      "name": "Blue Mountain Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Palmerton",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Blue Mountain Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-boyce-park",
+      "slug": "us-pa-boyce-park",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#boyce-park",
+      "name": "Boyce Park",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Plum",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Boyce Park listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-camelback-mountain-resort",
+      "slug": "us-pa-camelback-mountain-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#camelback-mountain-resort",
+      "name": "Camelback Mountain Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Tannersville",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Camelback Mountain Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-eagle-rock-resort",
+      "slug": "us-pa-eagle-rock-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#eagle-rock-resort",
+      "name": "Eagle Rock Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Hazleton",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Eagle Rock Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-elk-mountain",
+      "slug": "us-pa-elk-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#elk-mountain",
+      "name": "Elk Mountain",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Union Dale",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Elk Mountain listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-hidden-valley-four-seasons-resort",
+      "slug": "us-pa-hidden-valley-four-seasons-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#hidden-valley-four-seasons-resort",
+      "name": "Hidden Valley Four Seasons Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Hidden Valley",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Hidden Valley Four Seasons Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-jack-frost-big-boulder",
+      "slug": "us-pa-jack-frost-big-boulder",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#jack-frost-big-boulder",
+      "name": "Jack Frost Big Boulder",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Blakeslee",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Jack Frost Big Boulder listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-laurel-mountain-ski-resort",
+      "slug": "us-pa-laurel-mountain-ski-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#laurel-mountain-ski-resort",
+      "name": "Laurel Mountain Ski Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Ligonier",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Laurel Mountain Ski Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-liberty-mountain-resort",
+      "slug": "us-pa-liberty-mountain-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#liberty-mountain-resort",
+      "name": "Liberty Mountain Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Carroll Valley",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Liberty Mountain Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-montage-mountain-ski-resort",
+      "slug": "us-pa-montage-mountain-ski-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#montage-mountain-ski-resort",
+      "name": "Montage Mountain Ski Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Scranton",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Montage Mountain Ski Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-mountain-view-at-edinboro",
+      "slug": "us-pa-mountain-view-at-edinboro",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#mountain-view-at-edinboro",
+      "name": "Mountain View at Edinboro",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Edinboro",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mountain View at Edinboro listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-seven-springs-mountain-resort",
+      "slug": "us-pa-seven-springs-mountain-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#seven-springs-mountain-resort",
+      "name": "Seven Springs Mountain Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Seven Springs",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Seven Springs Mountain Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-shawnee-mountain-ski-area",
+      "slug": "us-pa-shawnee-mountain-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#shawnee-mountain-ski-area",
+      "name": "Shawnee Mountain Ski Area",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "East Stroudsburg",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Shawnee Mountain Ski Area listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-ski-big-bear",
+      "slug": "us-pa-ski-big-bear",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#ski-big-bear",
+      "name": "Ski Big Bear",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Lackawaxen",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Ski Big Bear listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-ski-denton",
+      "slug": "us-pa-ski-denton",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#ski-denton",
+      "name": "Ski Denton",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Coudersport",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "inactive",
+      "is_active": false,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Ski Denton listing and Coudersport locality in Pennsylvania."
+        },
+        {
+          "type": "official_website",
+          "name": "Pennsylvania DCNR - Denton Hill State Park Winter Recreation",
+          "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/denton-hill-state-park/winter1",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for currently closed downhill skiing status at Denton Hill State Park."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-ski-roundtop",
+      "slug": "us-pa-ski-roundtop",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#ski-roundtop",
+      "name": "Ski Roundtop",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Lewisberry",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Ski Roundtop listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-ski-sawmill",
+      "slug": "us-pa-ski-sawmill",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#ski-sawmill",
+      "name": "Ski Sawmill",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Morris",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Ski Sawmill listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-spring-mountain",
+      "slug": "us-pa-spring-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#spring-mountain",
+      "name": "Spring Mountain",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Schwenksville",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Spring Mountain listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-tussey-mountain-ski-area",
+      "slug": "us-pa-tussey-mountain-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#tussey-mountain-ski-area",
+      "name": "Tussey Mountain Ski Area",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "State College",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Tussey Mountain Ski Area listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-pa-whitetail-ski-resort",
+      "slug": "us-pa-whitetail-ski-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#whitetail-ski-resort",
+      "name": "Whitetail Ski Resort",
+      "country_code": "US",
+      "region_code": "PA",
+      "region_name": "Pennsylvania",
+      "locality": "Mercersburg",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "pennsylvania_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Whitetail Ski Resort listing, locality, and active lift-served alpine status in Pennsylvania."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on Pennsylvania records."
+        }
+      ]
+    },
+    {
       "catalog_id": "snowpool:us-ut-alta",
       "slug": "us-ut-alta",
       "source": "snowpool_bootstrap",
