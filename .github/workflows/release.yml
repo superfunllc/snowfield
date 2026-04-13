@@ -1,0 +1,75 @@
+# .github/workflows/release.yml
+name: Release snow field artifacts
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Publish GitHub release
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Test CLI
+        run: make test
+
+      - name: Validate dataset
+        run: make validate
+
+      - name: Build dataset artifacts
+        run: make export
+
+      - name: Verify release artifacts
+        run: |
+          test -f dist/snow_fields.full.csv
+          test -f dist/snow_fields.full.geojson
+          test -f dist/snow_fields.full.manifest.json
+          test -f dist/snow_fields.full.client.json
+          test -f dist/snow_fields.local.csv
+          test -f dist/snow_fields.local.geojson
+          test -f dist/snow_fields.local.manifest.json
+          test -f dist/snow_fields.local.client.json
+
+      - name: Create release tag
+        id: release
+        run: |
+          short_sha="$(git rev-parse --short=12 HEAD)"
+          tag="snow-fields-$(date -u +'%Y%m%dT%H%M%SZ')-${GITHUB_RUN_NUMBER}-${short_sha}"
+          latest=false
+          git fetch --no-tags --depth=1 origin main:refs/remotes/origin/main
+          if [ "$(git rev-parse origin/main)" = "$GITHUB_SHA" ]; then
+            latest=true
+          fi
+          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+          echo "latest=${latest}" >> "$GITHUB_OUTPUT"
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.release.outputs.tag }}" \
+            --target "$GITHUB_SHA" \
+            --title "Snow fields ${{ steps.release.outputs.tag }}" \
+            --notes "Automated Snowfield dataset release." \
+            --latest="${{ steps.release.outputs.latest }}" \
+            dist/snow_fields.full.csv \
+            dist/snow_fields.full.geojson \
+            dist/snow_fields.full.client.json \
+            dist/snow_fields.full.manifest.json \
+            dist/snow_fields.local.csv \
+            dist/snow_fields.local.geojson \
+            dist/snow_fields.local.client.json \
+            dist/snow_fields.local.manifest.json

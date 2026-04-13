@@ -1,0 +1,40 @@
+# .github/workflows/pr.yml
+name: Validate snow field dataset
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate dataset artifacts
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Test CLI
+        run: make test
+
+      - name: Validate dataset
+        run: make validate
+
+      - name: Build dataset artifacts
+        run: make export
+
+      - name: Verify release artifacts
+        run: |
+          test -f dist/snow_fields.full.csv
+          test -f dist/snow_fields.full.geojson
+          test -f dist/snow_fields.full.manifest.json
+          test -f dist/snow_fields.full.client.json
+          test -f dist/snow_fields.local.csv
+          test -f dist/snow_fields.local.geojson
+          test -f dist/snow_fields.local.manifest.json
+          test -f dist/snow_fields.local.client.json

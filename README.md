@@ -7,8 +7,7 @@ This repo follows the Git-first dataset strategy:
 - `data/snow_fields.json` is the editable source of truth.
 - Supabase/Postgres is a deployed runtime copy, not the master record.
 - CSV, GeoJSON, client JSON, and manifests are generated release artifacts.
-- CI validates the dataset and uploads generated artifacts.
-- Supabase sync is guarded behind manual workflow input until Snowpool's catalog schema is ready.
+- CI validates PRs and publishes generated artifacts as GitHub releases after `main` updates.
 
 ## Quick Start
 
@@ -43,7 +42,6 @@ To add a new snowfield entry:
 ```sh
 make validate
 make export
-make sync-catalog-dry-run
 ```
 
 Review the diff before committing. `dist/` is generated and ignored, so new snowfield entries normally only change `data/snow_fields.json`.
@@ -69,8 +67,6 @@ Required fields are defined by `schema/snow_fields.schema.json` under `$defs.sno
 
 - CSV export fields
 - client JSON fields
-- Supabase sync fields by schema mode
-- Supabase conflict keys by schema mode
 - local variant region rules
 
 Coordinates and detailed elevation fields may be `null` during bootstrap. Do not guess them. Add them only when a source has been checked.
@@ -96,26 +92,12 @@ The initial records come from Snowpool's current canonical migration-backed list
 
 Only fields already present in Snowpool are treated as verified. Unknown coordinates and detailed base/summit/vertical fields are left `null` until sourced.
 
-## Supabase Sync
-
-For the current Snowpool table shape:
-
-```sh
-SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... make sync-legacy
-```
-
-For the future expanded catalog schema:
-
-```sh
-SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... make sync-catalog
-```
-
 ## When the Snowpool Schema Changes
 
 Treat Snowpool's database schema and this dataset repo as separate contracts:
 
 - The app repo owns the Supabase/Postgres table shape through migrations.
-- Snowfield owns the canonical catalog content, validation rules, generated artifacts, and import payload.
+- Snowfield owns the canonical catalog content, validation rules, and generated release artifacts.
 - Migrations should not become the long-term owner of canonical snow field rows.
 
 When `snow_fields` changes in Snowpool:
@@ -123,17 +105,14 @@ When `snow_fields` changes in Snowpool:
 1. Add the Supabase migration in the app repo.
 2. Decide whether the new column is canonical catalog data or app/runtime metadata.
 3. If it is canonical catalog data, add the field once in `schema/snow_fields.schema.json`.
-   The schema's `required` list controls required fields; its `x-snowfield` metadata controls CSV export fields, client JSON fields, Supabase sync columns, conflict keys, and local variant region rules.
+   The schema's `required` list controls required fields; its `x-snowfield` metadata controls CSV export fields, client JSON fields, and local variant region rules.
 4. Add values for the new field in `data/snow_fields.json`.
 5. Update this README when the public data contract changes.
-6. Update the Go CLI only when the field needs custom validation, transform, or sync behavior that is not covered by the schema metadata.
+6. Update the Go CLI only when the field needs custom validation, transform, or export behavior that is not covered by the schema metadata.
 7. Bump `schema_version` when the dataset release contract changes in a breaking way.
 8. Regenerate and verify artifacts:
 
 ```sh
 make validate
 make export
-make sync-catalog-dry-run
 ```
-
-If a new DB column is required, make sure the migration provides a default/backfill or the dataset has complete values before running a real sync.
