@@ -1,7 +1,7 @@
 {
   "$schema": "../schema/snow_fields.schema.json",
   "dataset_name": "snow_fields",
-  "dataset_version": "2026.04.12",
+  "dataset_version": "2026.04.13",
   "schema_version": 2,
   "description": "Canonical Snowpool snow field catalog. This file is the editable source of truth; generated CSV, GeoJSON, and release manifests are derived from it.",
   "records": [
@@ -1244,6 +1244,1482 @@
           "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
           "retrieved_at": "2026-04-12",
           "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-beartown-ski-area",
+      "slug": "us-ny-beartown-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#beartown-ski-area",
+      "name": "Beartown Ski Area",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Plattsburgh",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Beartown Ski Area listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-belleayre-ski-center",
+      "slug": "us-ny-belleayre-ski-center",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#belleayre-ski-center",
+      "name": "Belleayre Ski Center",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Highmount",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Belleayre Ski Center listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-big-tupper-ski-area",
+      "slug": "us-ny-big-tupper-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#big-tupper-ski-area",
+      "name": "Big Tupper Ski Area",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Tupper Lake",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Big Tupper Ski Area listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-brantling-ski-slopes",
+      "slug": "us-ny-brantling-ski-slopes",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#brantling-ski-slopes",
+      "name": "Brantling Ski Slopes",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Sodus",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Brantling Ski Slopes listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-bristol-mountain-ski-resort",
+      "slug": "us-ny-bristol-mountain-ski-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#bristol-mountain-ski-resort",
+      "name": "Bristol Mountain Ski Resort",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "South Bristol",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Bristol Mountain Ski Resort listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-buffalo-ski-club",
+      "slug": "us-ny-buffalo-ski-club",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#buffalo-ski-club",
+      "name": "Buffalo Ski Club",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Colden",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Buffalo Ski Club listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-catamount-ski-area",
+      "slug": "us-ny-catamount-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#catamount-ski-area",
+      "name": "Catamount Ski Area",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Hillsdale",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Catamount Ski Area listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-dry-hill-ski-area",
+      "slug": "us-ny-dry-hill-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#dry-hill-ski-area",
+      "name": "Dry Hill Ski Area",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Watertown",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Dry Hill Ski Area listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-gore-mountain",
+      "slug": "us-ny-gore-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#gore-mountain",
+      "name": "Gore Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "North Creek",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Gore Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-greek-peak",
+      "slug": "us-ny-greek-peak",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#greek-peak",
+      "name": "Greek Peak",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Virgil",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Greek Peak listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-hickory-ski-center",
+      "slug": "us-ny-hickory-ski-center",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#hickory-ski-center",
+      "name": "Hickory Ski Center",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Warrensburg",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Hickory Ski Center listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-holiday-mountain-ski-and-fun",
+      "slug": "us-ny-holiday-mountain-ski-and-fun",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#holiday-mountain-ski-and-fun",
+      "name": "Holiday Mountain Ski & Fun",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Monticello",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Holiday Mountain Ski & Fun listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-holiday-valley",
+      "slug": "us-ny-holiday-valley",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#holiday-valley",
+      "name": "Holiday Valley",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Ellicottville",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Holiday Valley listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-holimont",
+      "slug": "us-ny-holimont",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#holimont",
+      "name": "Holimont",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Ellicottville",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Holimont listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-hunter-mountain",
+      "slug": "us-ny-hunter-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#hunter-mountain",
+      "name": "Hunter Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Hunter",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Hunter Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-kissing-bridge",
+      "slug": "us-ny-kissing-bridge",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#kissing-bridge",
+      "name": "Kissing Bridge",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Colden",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Kissing Bridge listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-labrador-mountain",
+      "slug": "us-ny-labrador-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#labrador-mountain",
+      "name": "Labrador Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Truxton",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Labrador Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-mccauley-mountain",
+      "slug": "us-ny-mccauley-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#mccauley-mountain",
+      "name": "McCauley Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Old Forge",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for McCauley Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-mount-peter-ski-area",
+      "slug": "us-ny-mount-peter-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#mount-peter-ski-area",
+      "name": "Mount Peter Ski Area",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Warwick",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Peter Ski Area listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-oak-mountain",
+      "slug": "us-ny-oak-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#oak-mountain",
+      "name": "Oak Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Speculator",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Oak Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-peek-n-peak",
+      "slug": "us-ny-peek-n-peak",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#peek-n-peak",
+      "name": "Peek'n Peak",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Clymer",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Peek'n Peak listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-plattekill-mountain",
+      "slug": "us-ny-plattekill-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#plattekill-mountain",
+      "name": "Plattekill Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Roxbury",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Plattekill Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-royal-mountain",
+      "slug": "us-ny-royal-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#royal-mountain",
+      "name": "Royal Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Caroga",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Royal Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-snow-ridge-ski-resort",
+      "slug": "us-ny-snow-ridge-ski-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#snow-ridge-ski-resort",
+      "name": "Snow Ridge Ski Resort",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Turin",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Snow Ridge Ski Resort listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-song-mountain-resort",
+      "slug": "us-ny-song-mountain-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#song-mountain-resort",
+      "name": "Song Mountain Resort",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Tully",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Song Mountain Resort listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-sugar-hill",
+      "slug": "us-ny-sugar-hill",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#sugar-hill",
+      "name": "Sugar Hill",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Sugar Hill",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Sugar Hill listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-swain",
+      "slug": "us-ny-swain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#swain",
+      "name": "Swain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Swain",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Swain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-thunder-ridge-ski-area",
+      "slug": "us-ny-thunder-ridge-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#thunder-ridge-ski-area",
+      "name": "Thunder Ridge Ski Area",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Patterson",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Thunder Ridge Ski Area listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-titus-mountain",
+      "slug": "us-ny-titus-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#titus-mountain",
+      "name": "Titus Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Malone",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Titus Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-toggenburg-mountain",
+      "slug": "us-ny-toggenburg-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#toggenburg-mountain",
+      "name": "Toggenburg Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Fabius",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Toggenburg Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-victor-constant-ski-area",
+      "slug": "us-ny-victor-constant-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#victor-constant-ski-area",
+      "name": "Victor Constant Ski Area",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "West Point",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Victor Constant Ski Area listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-west-mountain",
+      "slug": "us-ny-west-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#west-mountain",
+      "name": "West Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Glens Falls",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for West Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-whiteface-mountain",
+      "slug": "us-ny-whiteface-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#whiteface-mountain",
+      "name": "Whiteface Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Wilmington",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Whiteface Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-willard-mountain",
+      "slug": "us-ny-willard-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#willard-mountain",
+      "name": "Willard Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Greenwich",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Willard Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-windham-mountain",
+      "slug": "us-ny-windham-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#windham-mountain",
+      "name": "Windham Mountain",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Windham",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Windham Mountain listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ny-woods-valley-ski-resort",
+      "slug": "us-ny-woods-valley-ski-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#woods-valley-ski-resort",
+      "name": "Woods Valley Ski Resort",
+      "country_code": "US",
+      "region_code": "NY",
+      "region_name": "New York",
+      "locality": "Westernville",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_york_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Woods Valley Ski Resort listing, locality, and active lift-served alpine status in New York."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New York records."
         }
       ]
     },
