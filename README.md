@@ -59,10 +59,8 @@ Identity rules:
 
 Versioning rules:
 
-- Keep `data/snow_fields.json` date-based: `YYYY.MM.DD` or `YYYY.MM.DD-suffix`.
-- Release manifests use the immutable GitHub release tag as `dataset_version`, for example `snow-fields-20260413T075635Z-13-3326293b766e`.
-- `schema_version` is separate from `dataset_version`.
-- Bump `schema_version` only when the dataset contract changes in a breaking way.
+- Release manifests include `dataset_version` only when set by CI, using the immutable GitHub release tag, for example `snow-fields-20260413T075635Z-13-3326293b766e`. Local `make export` runs omit the field.
+- `schema_version` tracks the dataset contract independently. Bump it only when the contract changes in a breaking way.
 
 Required fields are defined by `schema/snow_fields.schema.json` under `$defs.snow_field.required`. The same schema is also the shared field catalog for the Go CLI. Its `x-snowfield` metadata controls:
 

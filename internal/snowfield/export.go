@@ -19,9 +19,7 @@ func Export(loaded *Loaded, outputDir string, generatedAt string, datasetVersion
 	if generatedAt == "" {
 		generatedAt = time.Now().UTC().Truncate(time.Second).Format(time.RFC3339)
 	}
-	if datasetVersion == "" {
-		datasetVersion = loaded.Dataset.DatasetVersion
-	} else if !exportDatasetVersionPattern.MatchString(datasetVersion) {
+	if datasetVersion != "" && !exportDatasetVersionPattern.MatchString(datasetVersion) {
 		return nil, fmt.Errorf("dataset version override %q is invalid; expected a leading letter or digit followed by letters, digits, dots, underscores, or dashes", datasetVersion)
 	}
 	if err := os.MkdirAll(outputDir, 0o755); err != nil {
@@ -178,7 +176,6 @@ func writeManifest(path string, dataset Dataset, datasetVersion string, variant 
 
 	manifest := map[string]any{
 		"dataset_name":       dataset.DatasetName,
-		"dataset_version":    datasetVersion,
 		"schema_version":     dataset.SchemaVersion,
 		"variant":            variant,
 		"generated_at":       generatedAt,
@@ -202,6 +199,9 @@ func writeManifest(path string, dataset Dataset, datasetVersion string, variant 
 				"row_count": rowCount,
 			},
 		},
+	}
+	if datasetVersion != "" {
+		manifest["dataset_version"] = datasetVersion
 	}
 	return writeJSONFile(path, manifest)
 }

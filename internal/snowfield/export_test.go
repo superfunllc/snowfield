@@ -8,7 +8,7 @@ import (
 	"testing"
 )
 
-func TestExportManifestUsesDatasetSourceVersionByDefault(t *testing.T) {
+func TestExportManifestOmitsDatasetVersionWhenNoOverride(t *testing.T) {
 	loaded := loadTestDataset(t)
 	outputDir := t.TempDir()
 
@@ -17,8 +17,8 @@ func TestExportManifestUsesDatasetSourceVersionByDefault(t *testing.T) {
 	}
 
 	manifest := readManifest(t, outputDir, "full")
-	if got := manifest["dataset_version"]; got != loaded.Dataset.DatasetVersion {
-		t.Fatalf("unexpected dataset_version: got %v want %q", got, loaded.Dataset.DatasetVersion)
+	if _, present := manifest["dataset_version"]; present {
+		t.Fatalf("expected dataset_version to be absent, got %v", manifest["dataset_version"])
 	}
 }
 

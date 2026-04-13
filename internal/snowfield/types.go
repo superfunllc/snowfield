@@ -15,9 +15,8 @@ type Loaded struct {
 
 type Dataset struct {
 	Schema         string   `json:"$schema,omitempty"`
-	DatasetName    string   `json:"dataset_name"`
-	DatasetVersion string   `json:"dataset_version"`
-	SchemaVersion  int      `json:"schema_version"`
+	DatasetName   string   `json:"dataset_name"`
+	SchemaVersion int      `json:"schema_version"`
 	Description    string   `json:"description,omitempty"`
 	Records        []Record `json:"records"`
 }

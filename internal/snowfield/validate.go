@@ -8,7 +8,6 @@ import (
 	"time"
 )
 
-var datasetVersionPattern = regexp.MustCompile(`^\d{4}\.\d{2}\.\d{2}([-.+][A-Za-z0-9_.-]+)?$`)
 var catalogIDPattern = regexp.MustCompile(`^[a-z0-9_.:-]+$`)
 var slugPattern = regexp.MustCompile(`^[a-z0-9]+(-[a-z0-9]+)*$`)
 var sourcePattern = regexp.MustCompile(`^[a-z0-9_]+$`)
@@ -30,9 +29,6 @@ func Validate(loaded *Loaded) []string {
 
 	if dataset.DatasetName != "snow_fields" {
 		errors = append(errors, "dataset_name: expected 'snow_fields'")
-	}
-	if !datasetVersionPattern.MatchString(dataset.DatasetVersion) {
-		errors = append(errors, "dataset_version: expected YYYY.MM.DD or YYYY.MM.DD-suffix")
 	}
 	if dataset.SchemaVersion != 2 {
 		errors = append(errors, "schema_version: expected 2")
