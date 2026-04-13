@@ -68,6 +68,468 @@
       ]
     },
     {
+      "catalog_id": "snowpool:us-ca-alpine-meadows",
+      "slug": "us-ca-alpine-meadows",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#alpine-meadows",
+      "name": "Alpine Meadows",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Alpine Meadows",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8637,
+      "base_elevation_ft": 6835,
+      "summit_elevation_ft": 8637,
+      "vertical_drop_ft": 1802,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Alpine Meadows nearest city and elevation statistics; source row date statistics updated: March 2020."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-alta-sierra",
+      "slug": "us-ca-alta-sierra",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#alta-sierra",
+      "name": "Alta Sierra",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Wofford Heights",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7091,
+      "base_elevation_ft": 6491,
+      "summit_elevation_ft": 7091,
+      "vertical_drop_ft": 600,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Alta Sierra nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-badger-pass",
+      "slug": "us-ca-badger-pass",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#badger-pass",
+      "name": "Badger Pass",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Yosemite National Park",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8000,
+      "base_elevation_ft": 7200,
+      "summit_elevation_ft": 8000,
+      "vertical_drop_ft": 800,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Badger Pass nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-bear-mountain",
+      "slug": "us-ca-bear-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#bear-mountain",
+      "name": "Bear Mountain",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Big Bear Lake",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8805,
+      "base_elevation_ft": 7104,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 1665,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Bear Mountain nearest city and elevation statistics; source row date statistics updated: November 14, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-bear-valley",
+      "slug": "us-ca-bear-valley",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#bear-valley",
+      "name": "Bear Valley",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Angels Camp",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8500,
+      "base_elevation_ft": 6600,
+      "summit_elevation_ft": 8500,
+      "vertical_drop_ft": 1900,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Bear Valley nearest city and elevation statistics; source row date statistics updated: Oct 1, 2015. Source row notes base elevation as 6,600 with mid-mountain 7,550."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-boreal",
+      "slug": "us-ca-boreal",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#boreal",
+      "name": "Boreal",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Soda Springs",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7700,
+      "base_elevation_ft": 7200,
+      "summit_elevation_ft": 7700,
+      "vertical_drop_ft": 500,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Boreal nearest city and elevation statistics; source row date statistics updated: November 19, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-buckhorn-ski-and-snowboard-club",
+      "slug": "us-ca-buckhorn-ski-and-snowboard-club",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#buckhorn-ski-and-snowboard-club",
+      "name": "Buckhorn Ski and Snowboard Club",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Three Points",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7903,
+      "base_elevation_ft": 7203,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 680,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Buckhorn Ski and Snowboard Club nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-cedar-pass-ski-area",
+      "slug": "us-ca-cedar-pass-ski-area",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#cedar-pass-ski-area",
+      "name": "Cedar Pass Ski Area",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Alturas",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Cedar Pass Ski Area nearest city and elevation statistics; source row date statistics updated: August 1, 2019. Source row does not provide elevation statistics, so detailed elevation fields are null."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-china-peak",
+      "slug": "us-ca-china-peak",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#china-peak",
+      "name": "China Peak",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Lakeshore",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8709,
+      "base_elevation_ft": 7030,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 1673,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for China Peak nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-dodge-ridge",
+      "slug": "us-ca-dodge-ridge",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#dodge-ridge",
+      "name": "Dodge Ridge",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Sonora",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8200,
+      "base_elevation_ft": 6600,
+      "summit_elevation_ft": 8200,
+      "vertical_drop_ft": 1600,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Dodge Ridge nearest city and elevation statistics; source row date statistics updated: January 9, 2023."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-donner-ski-ranch",
+      "slug": "us-ca-donner-ski-ranch",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#donner-ski-ranch",
+      "name": "Donner Ski Ranch",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Norden",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7781,
+      "base_elevation_ft": 7031,
+      "summit_elevation_ft": 7781,
+      "vertical_drop_ft": 750,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Donner Ski Ranch nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
       "catalog_id": "snowpool:us-ca-heavenly",
       "slug": "us-ca-heavenly",
       "source": "snowpool_bootstrap",
@@ -80,14 +542,15 @@
       "timezone": "America/Los_Angeles",
       "lat": null,
       "lng": null,
-      "elevation_ft": 10067,
-      "base_elevation_ft": null,
+      "elevation_ft": 10040,
+      "base_elevation_ft": 6567,
       "summit_elevation_ft": null,
-      "vertical_drop_ft": null,
+      "vertical_drop_ft": 3500,
       "status": "active",
       "is_active": true,
-      "is_verified": false,
+      "is_verified": true,
       "tags": [
+        "california_ski_resorts",
         "current_us_west",
         "snowpool_bootstrap"
       ],
@@ -99,6 +562,97 @@
           "url": null,
           "retrieved_at": "2026-04-12",
           "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Heavenly Mountain Resort nearest city and elevation statistics; source row date statistics updated: March 2020. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-homewood",
+      "slug": "us-ca-homewood",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#homewood",
+      "name": "Homewood",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Homewood",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7881,
+      "base_elevation_ft": 6223,
+      "summit_elevation_ft": 7881,
+      "vertical_drop_ft": 1658,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Homewood nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-june-mountain",
+      "slug": "us-ca-june-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#june-mountain",
+      "name": "June Mountain",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "June Lake",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 10090,
+      "base_elevation_ft": 7545,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 2590,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for June Mountain nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
         }
       ]
     },
@@ -116,13 +670,14 @@
       "lat": null,
       "lng": null,
       "elevation_ft": 9800,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
-      "vertical_drop_ft": null,
+      "base_elevation_ft": 7800,
+      "summit_elevation_ft": 9800,
+      "vertical_drop_ft": 2000,
       "status": "active",
       "is_active": true,
-      "is_verified": false,
+      "is_verified": true,
       "tags": [
+        "california_ski_resorts",
         "current_us_west",
         "snowpool_bootstrap"
       ],
@@ -134,6 +689,223 @@
           "url": null,
           "retrieved_at": "2026-04-12",
           "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Kirkwood nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-mammoth-mountain",
+      "slug": "us-ca-mammoth-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#mammoth-mountain",
+      "name": "Mammoth Mountain",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Mammoth Lakes",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 11053,
+      "base_elevation_ft": 7953,
+      "summit_elevation_ft": 11053,
+      "vertical_drop_ft": 3100,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Mammoth Mountain nearest city and elevation statistics; source row date statistics updated: March 2020."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-mount-baldy-ski-lifts",
+      "slug": "us-ca-mount-baldy-ski-lifts",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#mount-baldy-ski-lifts",
+      "name": "Mount Baldy Ski Lifts",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Mount Baldy",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8600,
+      "base_elevation_ft": 6500,
+      "summit_elevation_ft": 8600,
+      "vertical_drop_ft": 2100,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Mount Baldy Ski Lifts nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-mount-shasta-ski-park",
+      "slug": "us-ca-mount-shasta-ski-park",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#mount-shasta-ski-park",
+      "name": "Mount Shasta Ski Park",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Mount Shasta",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7536,
+      "base_elevation_ft": 5500,
+      "summit_elevation_ft": 7536,
+      "vertical_drop_ft": 2036,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Mount Shasta Ski Park nearest city and elevation statistics; source row date statistics updated: January 2026."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-mount-waterman",
+      "slug": "us-ca-mount-waterman",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#mount-waterman",
+      "name": "Mount Waterman",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Three Points",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8030,
+      "base_elevation_ft": 7000,
+      "summit_elevation_ft": 8030,
+      "vertical_drop_ft": 1030,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Mount Waterman nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-mountain-high",
+      "slug": "us-ca-mountain-high",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#mountain-high",
+      "name": "Mountain High",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Wrightwood",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8200,
+      "base_elevation_ft": 6600,
+      "summit_elevation_ft": 8200,
+      "vertical_drop_ft": 1600,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Mountain High nearest city and elevation statistics; source row date statistics updated: November 14, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
         }
       ]
     },
@@ -151,13 +923,14 @@
       "lat": null,
       "lng": null,
       "elevation_ft": 8610,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
-      "vertical_drop_ft": null,
+      "base_elevation_ft": 6330,
+      "summit_elevation_ft": 8610,
+      "vertical_drop_ft": 2280,
       "status": "active",
       "is_active": true,
-      "is_verified": false,
+      "is_verified": true,
       "tags": [
+        "california_ski_resorts",
         "current_us_west",
         "snowpool_bootstrap"
       ],
@@ -169,6 +942,13 @@
           "url": null,
           "retrieved_at": "2026-04-12",
           "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Northstar at Tahoe nearest city and elevation statistics; source row date statistics updated: November 19, 2012."
         }
       ]
     },
@@ -186,13 +966,14 @@
       "lat": null,
       "lng": null,
       "elevation_ft": 9050,
-      "base_elevation_ft": null,
-      "summit_elevation_ft": null,
-      "vertical_drop_ft": null,
+      "base_elevation_ft": 6200,
+      "summit_elevation_ft": 9050,
+      "vertical_drop_ft": 2850,
       "status": "active",
       "is_active": true,
-      "is_verified": false,
+      "is_verified": true,
       "tags": [
+        "california_ski_resorts",
         "current_us_west",
         "snowpool_bootstrap"
       ],
@@ -204,6 +985,265 @@
           "url": null,
           "retrieved_at": "2026-04-12",
           "note": "Bootstrap row copied from Snowpool canonical seed migration."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Palisades Tahoe nearest city and elevation statistics; source row date statistics updated: March 2020."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-sierra-at-tahoe",
+      "slug": "us-ca-sierra-at-tahoe",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#sierra-at-tahoe",
+      "name": "Sierra-at-Tahoe",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Twin Bridges",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8852,
+      "base_elevation_ft": 6640,
+      "summit_elevation_ft": 8852,
+      "vertical_drop_ft": 2212,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Sierra-at-Tahoe nearest city and elevation statistics; source row date statistics updated: January 9, 2023."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-snow-summit",
+      "slug": "us-ca-snow-summit",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#snow-summit",
+      "name": "Snow Summit",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Big Bear Lake",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8174,
+      "base_elevation_ft": 6965,
+      "summit_elevation_ft": 8174,
+      "vertical_drop_ft": 1209,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Snow Summit nearest city and elevation statistics; source row date statistics updated: February 27, 2018."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-snow-valley-mountain-resort",
+      "slug": "us-ca-snow-valley-mountain-resort",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#snow-valley-mountain-resort",
+      "name": "Snow Valley Mountain Resort",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Running Springs",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7841,
+      "base_elevation_ft": 6800,
+      "summit_elevation_ft": 7841,
+      "vertical_drop_ft": 1041,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Snow Valley Mountain Resort nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-soda-springs",
+      "slug": "us-ca-soda-springs",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#soda-springs",
+      "name": "Soda Springs",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Soda Springs",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7325,
+      "base_elevation_ft": 6673,
+      "summit_elevation_ft": 7325,
+      "vertical_drop_ft": 652,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Soda Springs nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-sugar-bowl",
+      "slug": "us-ca-sugar-bowl",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#sugar-bowl",
+      "name": "Sugar Bowl",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Norden",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 8383,
+      "base_elevation_ft": 6883,
+      "summit_elevation_ft": 8383,
+      "vertical_drop_ft": 1500,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Sugar Bowl nearest city and elevation statistics; source row date statistics updated: November 19, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-ca-tahoe-donner",
+      "slug": "us-ca-tahoe-donner",
+      "source": "wikipedia",
+      "source_id": "list-of-california-ski-resorts#tahoe-donner",
+      "name": "Tahoe Donner",
+      "country_code": "US",
+      "region_code": "CA",
+      "region_name": "California",
+      "locality": "Truckee",
+      "timezone": "America/Los_Angeles",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": 7350,
+      "base_elevation_ft": 6750,
+      "summit_elevation_ft": 7350,
+      "vertical_drop_ft": 600,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "california_ski_resorts",
+        "current_us_west"
+      ],
+      "updated_at": "2026-04-12",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of California ski resorts",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for Tahoe Donner nearest city and elevation statistics; source row date statistics updated: April 20, 2012."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-12",
+          "note": "Used for America/Los_Angeles timezone on California records."
         }
       ]
     },
