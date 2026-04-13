@@ -8,13 +8,21 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strconv"
 	"time"
 )
 
-func Export(loaded *Loaded, outputDir string, generatedAt string) ([]string, error) {
+var exportDatasetVersionPattern = regexp.MustCompile(`^[A-Za-z0-9][A-Za-z0-9._-]*$`)
+
+func Export(loaded *Loaded, outputDir string, generatedAt string, datasetVersion string) ([]string, error) {
 	if generatedAt == "" {
 		generatedAt = time.Now().UTC().Truncate(time.Second).Format(time.RFC3339)
+	}
+	if datasetVersion == "" {
+		datasetVersion = loaded.Dataset.DatasetVersion
+	} else if !exportDatasetVersionPattern.MatchString(datasetVersion) {
+		return nil, fmt.Errorf("dataset version override %q is invalid; expected a leading letter or digit followed by letters, digits, dots, underscores, or dashes", datasetVersion)
 	}
 	if err := os.MkdirAll(outputDir, 0o755); err != nil {
 		return nil, err
@@ -42,7 +50,7 @@ func Export(loaded *Loaded, outputDir string, generatedAt string) ([]string, err
 		if err != nil {
 			return nil, err
 		}
-		if err := writeManifest(manifestPath, loaded.Dataset, variant, generatedAt, len(rows), geocodedRowCount, csvPath, geoJSONPath, clientJSONPath); err != nil {
+		if err := writeManifest(manifestPath, loaded.Dataset, datasetVersion, variant, generatedAt, len(rows), geocodedRowCount, csvPath, geoJSONPath, clientJSONPath); err != nil {
 			return nil, err
 		}
 
@@ -154,7 +162,7 @@ func writeGeoJSON(path string, rows []Record, propertyFields []string) (int, err
 	return len(features), nil
 }
 
-func writeManifest(path string, dataset Dataset, variant string, generatedAt string, rowCount int, geocodedRowCount int, csvPath string, geoJSONPath string, clientJSONPath string) error {
+func writeManifest(path string, dataset Dataset, datasetVersion string, variant string, generatedAt string, rowCount int, geocodedRowCount int, csvPath string, geoJSONPath string, clientJSONPath string) error {
 	csvSHA, err := fileSHA256(csvPath)
 	if err != nil {
 		return err
@@ -170,7 +178,7 @@ func writeManifest(path string, dataset Dataset, variant string, generatedAt str
 
 	manifest := map[string]any{
 		"dataset_name":       dataset.DatasetName,
-		"dataset_version":    dataset.DatasetVersion,
+		"dataset_version":    datasetVersion,
 		"schema_version":     dataset.SchemaVersion,
 		"variant":            variant,
 		"generated_at":       generatedAt,

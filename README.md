@@ -59,7 +59,8 @@ Identity rules:
 
 Versioning rules:
 
-- Use date-based dataset versions: `YYYY.MM.DD` or `YYYY.MM.DD-suffix`.
+- Keep `data/snow_fields.json` date-based: `YYYY.MM.DD` or `YYYY.MM.DD-suffix`.
+- Release manifests use the immutable GitHub release tag as `dataset_version`, for example `snow-fields-20260413T075635Z-13-3326293b766e`.
 - `schema_version` is separate from `dataset_version`.
 - Bump `schema_version` only when the dataset contract changes in a breaking way.
 

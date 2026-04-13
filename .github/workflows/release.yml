@@ -29,8 +29,24 @@ jobs:
       - name: Validate dataset
         run: make validate
 
+      - name: Create release tag
+        id: release
+        run: |
+          short_sha="$(git rev-parse --short=12 HEAD)"
+          timestamp="$(date -u +'%Y%m%dT%H%M%SZ')"
+          generated_at="${timestamp:0:4}-${timestamp:4:2}-${timestamp:6:2}T${timestamp:9:2}:${timestamp:11:2}:${timestamp:13:2}Z"
+          tag="snow-fields-${timestamp}-${GITHUB_RUN_NUMBER}-${short_sha}"
+          latest=false
+          git fetch --no-tags --depth=1 origin main:refs/remotes/origin/main
+          if [ "$(git rev-parse origin/main)" = "$GITHUB_SHA" ]; then
+            latest=true
+          fi
+          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+          echo "generated_at=${generated_at}" >> "$GITHUB_OUTPUT"
+          echo "latest=${latest}" >> "$GITHUB_OUTPUT"
+
       - name: Build dataset artifacts
-        run: make export
+        run: make export DATASET_VERSION="${{ steps.release.outputs.tag }}" GENERATED_AT="${{ steps.release.outputs.generated_at }}"
 
       - name: Verify release artifacts
         run: |
@@ -42,19 +58,6 @@ jobs:
           test -f dist/snow_fields.local.geojson
           test -f dist/snow_fields.local.manifest.json
           test -f dist/snow_fields.local.client.json
-
-      - name: Create release tag
-        id: release
-        run: |
-          short_sha="$(git rev-parse --short=12 HEAD)"
-          tag="snow-fields-$(date -u +'%Y%m%dT%H%M%SZ')-${GITHUB_RUN_NUMBER}-${short_sha}"
-          latest=false
-          git fetch --no-tags --depth=1 origin main:refs/remotes/origin/main
-          if [ "$(git rev-parse origin/main)" = "$GITHUB_SHA" ]; then
-            latest=true
-          fi
-          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
-          echo "latest=${latest}" >> "$GITHUB_OUTPUT"
 
       - name: Publish GitHub release
         env:
