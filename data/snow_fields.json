@@ -6,6 +6,837 @@
   "description": "Canonical Snowpool snow field catalog. This file is the editable source of truth; generated CSV, GeoJSON, and release manifests are derived from it.",
   "records": [
     {
+      "catalog_id": "snowpool:au-nsw-blue-cow-mountain",
+      "slug": "au-nsw-blue-cow-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-blue-cow-mountain",
+      "name": "Blue Cow Mountain",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Blue Cow",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts",
+        "subarea"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Blue Cow Mountain listing and New South Wales resort grouping in Australia; also used for Perisher subarea classification."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Blue Cow Mountain",
+          "url": "https://en.wikipedia.org/wiki/Blue_Cow_Mountain",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Blue Cow Mountain naming, New South Wales location, and active Perisher resort-base status."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-nsw-charlotte-pass",
+      "slug": "au-nsw-charlotte-pass",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-charlotte-pass",
+      "name": "Charlotte Pass",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Kosciuszko National Park",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Charlotte Pass listing and New South Wales resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Charlotte Pass",
+          "url": "https://asaa.org.au/resorts/charlottepass/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status and Kosciuszko National Park locality in New South Wales."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-nsw-guthega",
+      "slug": "au-nsw-guthega",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-guthega",
+      "name": "Guthega",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Guthega",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts",
+        "subarea"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Guthega listing and New South Wales resort grouping in Australia; also used for Perisher subarea classification."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Perisher",
+          "url": "https://asaa.org.au/resorts/perisher/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Guthega as one of four active Perisher resort areas."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-nsw-perisher",
+      "slug": "au-nsw-perisher",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-perisher",
+      "name": "Perisher",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Perisher Valley",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Perisher listing and New South Wales resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Perisher",
+          "url": "https://asaa.org.au/resorts/perisher/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status, Perisher Valley locality, and the four Perisher resort areas."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-nsw-perisher-valley",
+      "slug": "au-nsw-perisher-valley",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-perisher-valley",
+      "name": "Perisher Valley",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Perisher Valley",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts",
+        "subarea"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Perisher Valley listing and New South Wales resort grouping in Australia; also used for Perisher subarea classification."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Perisher",
+          "url": "https://asaa.org.au/resorts/perisher/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Perisher Valley as one of four active Perisher resort areas."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-nsw-selwyn-snowfields",
+      "slug": "au-nsw-selwyn-snowfields",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-selwyn-snowfields",
+      "name": "Selwyn Snowfields",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Cabramurra",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Selwyn Snowfields listing and New South Wales resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Selwyn Snow Resort",
+          "url": "https://asaa.org.au/resorts/selwynsnow/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status, Cabramurra locality, and 2023 reopening after the Black Summer bushfires."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-nsw-smiggin-holes",
+      "slug": "au-nsw-smiggin-holes",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-smiggin-holes",
+      "name": "Smiggin Holes",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Smiggin Holes",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts",
+        "subarea"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Smiggin Holes listing and New South Wales resort grouping in Australia; also used for Perisher subarea classification."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Perisher",
+          "url": "https://asaa.org.au/resorts/perisher/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Smiggin Holes as one of four active Perisher resort areas."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-nsw-thredbo",
+      "slug": "au-nsw-thredbo",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-nsw-thredbo",
+      "name": "Thredbo",
+      "country_code": "AU",
+      "region_code": "NSW",
+      "region_name": "New South Wales",
+      "locality": "Thredbo",
+      "timezone": "Australia/Sydney",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Thredbo listing and New South Wales resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Thredbo",
+          "url": "https://asaa.org.au/resorts/thredbo/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status and Thredbo locality in New South Wales."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-NSW regional code and current New South Wales state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Sydney timezone on New South Wales records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-tas-ben-lomond",
+      "slug": "au-tas-ben-lomond",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-tas-ben-lomond",
+      "name": "Ben Lomond",
+      "country_code": "AU",
+      "region_code": "TAS",
+      "region_name": "Tasmania",
+      "locality": "Ben Lomond",
+      "timezone": "Australia/Hobart",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Ben Lomond listing and Tasmania resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Ben Lomond",
+          "url": "https://asaa.org.au/resorts/benlomond/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status and Ben Lomond locality in Tasmania."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-TAS regional code and current Tasmania state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Hobart timezone on Tasmania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-tas-mount-mawson",
+      "slug": "au-tas-mount-mawson",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-tas-mount-mawson",
+      "name": "Mount Mawson",
+      "country_code": "AU",
+      "region_code": "TAS",
+      "region_name": "Tasmania",
+      "locality": "Mount Field National Park",
+      "timezone": "Australia/Hobart",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts",
+        "club_field"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Mawson listing and Tasmania resort grouping in Australia; also used for club-field classification."
+        },
+        {
+          "type": "official_website",
+          "name": "Mount Mawson - About",
+          "url": "https://mtmawson.info/about/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active public club-field status, Mount Field National Park locality, and Southern Tasmanian Ski Association operation."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-TAS regional code and current Tasmania state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Hobart timezone on Tasmania records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-vic-dinner-plain",
+      "slug": "au-vic-dinner-plain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-vic-dinner-plain",
+      "name": "Dinner Plain",
+      "country_code": "AU",
+      "region_code": "VIC",
+      "region_name": "Victoria",
+      "locality": "Dinner Plain",
+      "timezone": "Australia/Melbourne",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts",
+        "subarea"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Dinner Plain listing and Victoria resort grouping in Australia; also used for Mount Hotham nested resort-area classification from the Australia list source."
+        },
+        {
+          "type": "official_website",
+          "name": "Dinner Plain - Victoria's High Country",
+          "url": "https://www.visitdinnerplain.com.au/listing/dinner-plain/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active alpine village status, Dinner Plain locality, beginner ski run, and cross-country skiing trails."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-VIC regional code and current Victoria state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Melbourne timezone on Victoria records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-vic-falls-creek",
+      "slug": "au-vic-falls-creek",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-vic-falls-creek",
+      "name": "Falls Creek",
+      "country_code": "AU",
+      "region_code": "VIC",
+      "region_name": "Victoria",
+      "locality": "Falls Creek",
+      "timezone": "Australia/Melbourne",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Falls Creek listing and Victoria resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Falls Creek",
+          "url": "https://asaa.org.au/resorts/fallscreek/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status and Falls Creek locality in Victoria."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-VIC regional code and current Victoria state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Melbourne timezone on Victoria records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-vic-mount-baw-baw",
+      "slug": "au-vic-mount-baw-baw",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-vic-mount-baw-baw",
+      "name": "Mount Baw Baw",
+      "country_code": "AU",
+      "region_code": "VIC",
+      "region_name": "Victoria",
+      "locality": "Baw Baw Village",
+      "timezone": "Australia/Melbourne",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Baw Baw listing and Victoria resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Mt Baw Baw Alpine Resort",
+          "url": "https://mountbawbaw.com.au/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active downhill ski, snowboard, toboggan, and snow resort status and Baw Baw Village locality in Victoria."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-VIC regional code and current Victoria state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Melbourne timezone on Victoria records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-vic-mount-buller",
+      "slug": "au-vic-mount-buller",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-vic-mount-buller",
+      "name": "Mount Buller",
+      "country_code": "AU",
+      "region_code": "VIC",
+      "region_name": "Victoria",
+      "locality": "Mount Buller",
+      "timezone": "Australia/Melbourne",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Buller listing and Victoria resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Mt Buller",
+          "url": "https://asaa.org.au/resorts/mtbuller/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status and Mount Buller locality in Victoria."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-VIC regional code and current Victoria state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Melbourne timezone on Victoria records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:au-vic-mount-hotham",
+      "slug": "au-vic-mount-hotham",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-australia#au-vic-mount-hotham",
+      "name": "Mount Hotham",
+      "country_code": "AU",
+      "region_code": "VIC",
+      "region_name": "Victoria",
+      "locality": "Hotham Heights",
+      "timezone": "Australia/Melbourne",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": null,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "australia_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_Australia",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mount Hotham listing and Victoria resort grouping in Australia."
+        },
+        {
+          "type": "official_website",
+          "name": "Snow Resorts Australia - Hotham",
+          "url": "https://asaa.org.au/resorts/hotham/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active commercial resort status and Hotham Heights locality in Victoria."
+        },
+        {
+          "type": "wikipedia",
+          "name": "ISO 3166-2:AU - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ISO_3166-2:AU",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for AU-VIC regional code and current Victoria state name."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Australia/Melbourne timezone on Victoria records."
+        }
+      ]
+    },
+    {
       "catalog_id": "snowpool:nz-can-awakino",
       "slug": "nz-can-awakino",
       "source": "wikipedia",
