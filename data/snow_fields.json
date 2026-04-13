@@ -1248,6 +1248,220 @@
       ]
     },
     {
+      "catalog_id": "snowpool:us-nj-big-snow-american-dream",
+      "slug": "us-nj-big-snow-american-dream",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#big-snow-american-dream",
+      "name": "Big Snow American Dream",
+      "country_code": "US",
+      "region_code": "NJ",
+      "region_name": "New Jersey",
+      "locality": "East Rutherford",
+      "timezone": "America/New_York",
+      "lat": 40.81111,
+      "lng": -74.07,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 160,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "indoor",
+        "new_jersey_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Big Snow American Dream listing, East Rutherford locality, and indoor classification in New Jersey."
+        },
+        {
+          "type": "official_website",
+          "name": "Big Snow American Dream - Press Room",
+          "url": "https://www.bigsnowamericandream.com/press-room/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for year-round indoor ski and snowboard resort status, address, and 160 ft vertical drop."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Big Snow American Dream",
+          "url": "https://en.wikipedia.org/wiki/Big_Snow_American_Dream",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for coordinates and operating status."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New Jersey records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-nj-campgaw-mountain",
+      "slug": "us-nj-campgaw-mountain",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#campgaw-mountain",
+      "name": "Campgaw Mountain",
+      "country_code": "US",
+      "region_code": "NJ",
+      "region_name": "New Jersey",
+      "locality": "Mahwah",
+      "timezone": "America/New_York",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": null,
+      "vertical_drop_ft": 270,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_jersey_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Campgaw Mountain listing and Mahwah locality in New Jersey."
+        },
+        {
+          "type": "official_website",
+          "name": "Campgaw Mountain - The Mountain",
+          "url": "https://www.skicampgaw.com/the-mountain",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for seasonal ski area status, address, and 270 ft vertical drop; source reported closed for the season at retrieval."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New Jersey records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-nj-hidden-valley",
+      "slug": "us-nj-hidden-valley",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#hidden-valley",
+      "name": "Hidden Valley",
+      "country_code": "US",
+      "region_code": "NJ",
+      "region_name": "New Jersey",
+      "locality": "Vernon",
+      "timezone": "America/New_York",
+      "lat": 41.1856,
+      "lng": -74.4806,
+      "elevation_ft": 1435,
+      "base_elevation_ft": 815,
+      "summit_elevation_ft": 1435,
+      "vertical_drop_ft": 620,
+      "status": "inactive",
+      "is_active": false,
+      "is_verified": true,
+      "tags": [
+        "new_jersey_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Hidden Valley listing and Vernon locality in New Jersey."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Hidden Valley (New Jersey)",
+          "url": "https://en.wikipedia.org/wiki/Hidden_Valley_(New_Jersey)",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for coordinates, defunct Hidden Valley resort status, summit elevation, base elevation, and vertical drop."
+        },
+        {
+          "type": "official_website",
+          "name": "Winter4Kids - The Campus",
+          "url": "https://www.winter4kids.org/campus/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used to verify the former Hidden Valley Ski Area has been reimagined as the youth-only Winter4Kids ski and snowboard facility."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New Jersey records."
+        }
+      ]
+    },
+    {
+      "catalog_id": "snowpool:us-nj-mountain-creek",
+      "slug": "us-nj-mountain-creek",
+      "source": "wikipedia",
+      "source_id": "list-of-ski-areas-and-resorts-in-the-united-states#mountain-creek",
+      "name": "Mountain Creek",
+      "country_code": "US",
+      "region_code": "NJ",
+      "region_name": "New Jersey",
+      "locality": "Vernon",
+      "timezone": "America/New_York",
+      "lat": 41.181,
+      "lng": -74.513,
+      "elevation_ft": 1480,
+      "base_elevation_ft": null,
+      "summit_elevation_ft": 1480,
+      "vertical_drop_ft": 1040,
+      "status": "active",
+      "is_active": true,
+      "is_verified": true,
+      "tags": [
+        "new_jersey_ski_resorts"
+      ],
+      "updated_at": "2026-04-13",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - List of ski areas and resorts in the United States",
+          "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for Mountain Creek listing and Vernon locality in New Jersey."
+        },
+        {
+          "type": "official_website",
+          "name": "Mountain Creek - News & Press",
+          "url": "https://mountaincreek.com/news-press/",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for active resort status, address, 1,480 ft summit elevation, and 1,040 ft vertical drop."
+        },
+        {
+          "type": "wikipedia",
+          "name": "Wikipedia - Mountain Creek",
+          "url": "https://en.wikipedia.org/wiki/Mountain_Creek",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for coordinates and operating status."
+        },
+        {
+          "type": "iana_tzdb",
+          "name": "IANA Time Zone Database - zone1970.tab",
+          "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab",
+          "retrieved_at": "2026-04-13",
+          "note": "Used for America/New_York timezone on New Jersey records."
+        }
+      ]
+    },
+    {
       "catalog_id": "snowpool:us-ny-beartown-ski-area",
       "slug": "us-ny-beartown-ski-area",
       "source": "wikipedia",
