@@ -208,7 +208,7 @@
       "lng": null,
       "elevation_ft": 8805,
       "base_elevation_ft": 7104,
-      "summit_elevation_ft": null,
+      "summit_elevation_ft": 8805,
       "vertical_drop_ft": 1665,
       "status": "active",
       "is_active": true,
@@ -224,7 +224,7 @@
           "name": "Wikipedia - List of California ski resorts",
           "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
           "retrieved_at": "2026-04-12",
-          "note": "Used for Bear Mountain nearest city and elevation statistics; source row date statistics updated: November 14, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+          "note": "Used for Bear Mountain nearest city and elevation statistics; source row date statistics updated: November 14, 2012. Source peak, base, and vertical drop differ by 36 ft, within the dataset summit-base-drop tolerance."
         },
         {
           "type": "iana_tzdb",
@@ -334,7 +334,7 @@
       "lng": null,
       "elevation_ft": 7903,
       "base_elevation_ft": 7203,
-      "summit_elevation_ft": null,
+      "summit_elevation_ft": 7903,
       "vertical_drop_ft": 680,
       "status": "active",
       "is_active": true,
@@ -350,7 +350,7 @@
           "name": "Wikipedia - List of California ski resorts",
           "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
           "retrieved_at": "2026-04-12",
-          "note": "Used for Buckhorn Ski and Snowboard Club nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+          "note": "Used for Buckhorn Ski and Snowboard Club nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop differ by 20 ft, within the dataset summit-base-drop tolerance."
         },
         {
           "type": "iana_tzdb",
@@ -418,7 +418,7 @@
       "lng": null,
       "elevation_ft": 8709,
       "base_elevation_ft": 7030,
-      "summit_elevation_ft": null,
+      "summit_elevation_ft": 8709,
       "vertical_drop_ft": 1673,
       "status": "active",
       "is_active": true,
@@ -434,7 +434,7 @@
           "name": "Wikipedia - List of California ski resorts",
           "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
           "retrieved_at": "2026-04-12",
-          "note": "Used for China Peak nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+          "note": "Used for China Peak nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop differ by 6 ft, within the dataset summit-base-drop tolerance."
         },
         {
           "type": "iana_tzdb",
@@ -544,7 +544,7 @@
       "lng": null,
       "elevation_ft": 10040,
       "base_elevation_ft": 6567,
-      "summit_elevation_ft": null,
+      "summit_elevation_ft": 10040,
       "vertical_drop_ft": 3500,
       "status": "active",
       "is_active": true,
@@ -568,7 +568,7 @@
           "name": "Wikipedia - List of California ski resorts",
           "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
           "retrieved_at": "2026-04-12",
-          "note": "Used for Heavenly Mountain Resort nearest city and elevation statistics; source row date statistics updated: March 2020. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+          "note": "Used for Heavenly Mountain Resort nearest city and elevation statistics; source row date statistics updated: March 2020. Source peak, base, and vertical drop differ by 27 ft, within the dataset summit-base-drop tolerance."
         }
       ]
     },
@@ -629,7 +629,7 @@
       "lng": null,
       "elevation_ft": 10090,
       "base_elevation_ft": 7545,
-      "summit_elevation_ft": null,
+      "summit_elevation_ft": 10090,
       "vertical_drop_ft": 2590,
       "status": "active",
       "is_active": true,
@@ -645,7 +645,7 @@
           "name": "Wikipedia - List of California ski resorts",
           "url": "https://en.wikipedia.org/wiki/List_of_California_ski_resorts",
           "retrieved_at": "2026-04-12",
-          "note": "Used for June Mountain nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop do not satisfy the dataset summit-base-drop invariant; peak is stored in elevation_ft and summit_elevation_ft is null."
+          "note": "Used for June Mountain nearest city and elevation statistics; source row date statistics updated: April 20, 2012. Source peak, base, and vertical drop differ by 45 ft, within the dataset summit-base-drop tolerance."
         },
         {
           "type": "iana_tzdb",
