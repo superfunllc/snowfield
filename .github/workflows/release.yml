@@ -46,7 +46,7 @@ jobs:
           echo "latest=${latest}" >> "$GITHUB_OUTPUT"
 
       - name: Build dataset artifacts
-        run: make export DATASET_VERSION="${{ steps.release.outputs.tag }}" GENERATED_AT="${{ steps.release.outputs.generated_at }}"
+        run: make export GENERATED_AT="${{ steps.release.outputs.generated_at }}"
 
       - name: Verify release artifacts
         run: |

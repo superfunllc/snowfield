@@ -1,16 +1,19 @@
 package snowfield
 
 import (
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"os"
 )
 
 type Loaded struct {
-	Dataset    Dataset
-	Catalog    FieldCatalog
-	RawDataset map[string]any
-	RawRecords []map[string]any
+	Dataset     Dataset
+	Catalog     FieldCatalog
+	RawDataset  map[string]any
+	RawRecords  []map[string]any
+	DatasetHash string
 }
 
 type Dataset struct {
@@ -88,11 +91,13 @@ func Load(datasetPath string, schemaPath string) (*Loaded, error) {
 		rawRecords = append(rawRecords, record)
 	}
 
+	sum := sha256.Sum256(datasetBytes)
 	return &Loaded{
-		Dataset:    dataset,
-		Catalog:    catalog,
-		RawDataset: rawDataset,
-		RawRecords: rawRecords,
+		Dataset:     dataset,
+		Catalog:     catalog,
+		RawDataset:  rawDataset,
+		RawRecords:  rawRecords,
+		DatasetHash: hex.EncodeToString(sum[:]),
 	}, nil
 }
 

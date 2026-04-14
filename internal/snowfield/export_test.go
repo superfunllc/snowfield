@@ -4,50 +4,26 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
-	"strings"
 	"testing"
 )
 
-func TestExportManifestOmitsDatasetVersionWhenNoOverride(t *testing.T) {
+func TestExportManifestDatasetVersionIsContentHash(t *testing.T) {
 	loaded := loadTestDataset(t)
 	outputDir := t.TempDir()
 
-	if _, err := Export(loaded, outputDir, "2026-04-13T07:56:35Z", ""); err != nil {
-		t.Fatalf("Export: %v", err)
-	}
-
-	manifest := readManifest(t, outputDir, "full")
-	if _, present := manifest["dataset_version"]; present {
-		t.Fatalf("expected dataset_version to be absent, got %v", manifest["dataset_version"])
-	}
-}
-
-func TestExportManifestUsesDatasetVersionOverride(t *testing.T) {
-	loaded := loadTestDataset(t)
-	outputDir := t.TempDir()
-	releaseTag := "snow-fields-20260413T075635Z-13-3326293b766e"
-
-	if _, err := Export(loaded, outputDir, "2026-04-13T07:56:35Z", releaseTag); err != nil {
+	if _, err := Export(loaded, outputDir, "2026-04-13T07:56:35Z"); err != nil {
 		t.Fatalf("Export: %v", err)
 	}
 
 	for _, variant := range []string{"full", "local"} {
 		manifest := readManifest(t, outputDir, variant)
-		if got := manifest["dataset_version"]; got != releaseTag {
-			t.Fatalf("%s manifest dataset_version: got %v want %q", variant, got, releaseTag)
+		got, present := manifest["dataset_version"]
+		if !present {
+			t.Fatalf("%s manifest: dataset_version missing", variant)
 		}
-	}
-}
-
-func TestExportRejectsInvalidDatasetVersionOverride(t *testing.T) {
-	loaded := loadTestDataset(t)
-
-	_, err := Export(loaded, t.TempDir(), "2026-04-13T07:56:35Z", "Snow fields snow-fields-20260413T075635Z-13-3326293b766e")
-	if err == nil {
-		t.Fatal("expected invalid dataset version override error")
-	}
-	if !strings.Contains(err.Error(), "dataset version override") {
-		t.Fatalf("unexpected error: %v", err)
+		if got != loaded.DatasetHash {
+			t.Fatalf("%s manifest dataset_version: got %v want %q", variant, got, loaded.DatasetHash)
+		}
 	}
 }
 

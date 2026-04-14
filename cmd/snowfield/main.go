@@ -77,7 +77,6 @@ func runExport(args []string) error {
 	schemaPath := fs.String("schema", defaultSchemaPath, "path to field catalog JSON schema")
 	outputDir := fs.String("output-dir", defaultOutputDir, "directory for generated artifacts")
 	generatedAt := fs.String("generated-at", "", "RFC3339 timestamp for generated artifacts")
-	datasetVersion := fs.String("dataset-version", "", "dataset_version override for generated manifests")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -94,7 +93,7 @@ func runExport(args []string) error {
 		return fmt.Errorf("validation failed")
 	}
 
-	paths, err := snowfield.Export(loaded, *outputDir, *generatedAt, *datasetVersion)
+	paths, err := snowfield.Export(loaded, *outputDir, *generatedAt)
 	if err != nil {
 		return err
 	}
