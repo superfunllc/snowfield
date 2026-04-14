@@ -59,7 +59,7 @@ Identity rules:
 
 Versioning rules:
 
-- Release manifests include `dataset_version` only when set by CI, using the immutable GitHub release tag, for example `snow-fields-20260413T075635Z-13-3326293b766e`. Local `make export` runs omit the field.
+- Release manifests always include `dataset_version` as the SHA-256 content hash of `data/snow_fields.json`. Do not edit `dataset_version` into the canonical JSON.
 - `schema_version` tracks the dataset contract independently. Bump it only when the contract changes in a breaking way.
 
 Required fields are defined by `schema/snow_fields.schema.json` under `$defs.snow_field.required`. The same schema is also the shared field catalog for the Go CLI. Its `x-snowfield` metadata controls:

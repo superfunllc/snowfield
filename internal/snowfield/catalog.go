@@ -8,8 +8,9 @@ import (
 )
 
 type FieldCatalog struct {
-	XSnowfield CatalogMetadata `json:"x-snowfield"`
-	Defs       CatalogDefs     `json:"$defs"`
+	XSnowfield CatalogMetadata            `json:"x-snowfield"`
+	Properties map[string]json.RawMessage `json:"properties"`
+	Defs       CatalogDefs                `json:"$defs"`
 }
 
 type CatalogMetadata struct {
@@ -55,6 +56,9 @@ func LoadFieldCatalog(path string) (FieldCatalog, error) {
 	if len(catalog.Defs.SnowField.Properties) == 0 {
 		return FieldCatalog{}, fmt.Errorf("field catalog missing $defs.snow_field.properties")
 	}
+	if len(catalog.Properties) == 0 {
+		return FieldCatalog{}, fmt.Errorf("field catalog missing properties")
+	}
 	return catalog, nil
 }
 
@@ -79,7 +83,6 @@ func (c FieldCatalog) FieldsWithFlag(flag string) []string {
 	}
 	return fields
 }
-
 
 func (c FieldCatalog) LocalRegions() map[string]map[string]struct{} {
 	regions := make(map[string]map[string]struct{}, len(c.XSnowfield.LocalRegions))
