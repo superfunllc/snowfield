@@ -8,7 +8,6 @@ import (
 	"time"
 )
 
-var datasetVersionPattern = regexp.MustCompile(`^\d{4}\.\d{2}\.\d{2}([-.+][A-Za-z0-9_.-]+)?$`)
 var catalogIDPattern = regexp.MustCompile(`^[a-z0-9_.:-]+$`)
 var slugPattern = regexp.MustCompile(`^[a-z0-9]+(-[a-z0-9]+)*$`)
 var sourcePattern = regexp.MustCompile(`^[a-z0-9_]+$`)
@@ -31,11 +30,13 @@ func Validate(loaded *Loaded) []string {
 	if dataset.DatasetName != "snow_fields" {
 		errors = append(errors, "dataset_name: expected 'snow_fields'")
 	}
-	if !datasetVersionPattern.MatchString(dataset.DatasetVersion) {
-		errors = append(errors, "dataset_version: expected YYYY.MM.DD or YYYY.MM.DD-suffix")
-	}
 	if dataset.SchemaVersion != 2 {
 		errors = append(errors, "schema_version: expected 2")
+	}
+	for _, field := range sortedMapKeys(loaded.RawDataset) {
+		if _, ok := loaded.Catalog.Properties[field]; !ok {
+			errors = append(errors, fmt.Sprintf("%s: unknown field", field))
+		}
 	}
 	if len(dataset.Records) == 0 {
 		errors = append(errors, "records: expected at least one record")
@@ -188,6 +189,15 @@ func Validate(loaded *Loaded) []string {
 	}
 
 	return errors
+}
+
+func sortedMapKeys(values map[string]any) []string {
+	keys := make([]string, 0, len(values))
+	for key := range values {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+	return keys
 }
 
 func validateNullableFloat(value *float64, path string, minValue float64, maxValue float64, errors *[]string) {

@@ -8,17 +8,13 @@ import (
 )
 
 type FieldCatalog struct {
-	XSnowfield CatalogMetadata `json:"x-snowfield"`
-	Defs       CatalogDefs     `json:"$defs"`
+	XSnowfield CatalogMetadata            `json:"x-snowfield"`
+	Properties map[string]json.RawMessage `json:"properties"`
+	Defs       CatalogDefs                `json:"$defs"`
 }
 
 type CatalogMetadata struct {
-	LocalRegions map[string][]string      `json:"local_regions"`
-	SyncModes    map[string]SyncModeEntry `json:"sync_modes"`
-}
-
-type SyncModeEntry struct {
-	ConflictColumn string `json:"conflict_column"`
+	LocalRegions map[string][]string `json:"local_regions"`
 }
 
 type CatalogDefs struct {
@@ -40,9 +36,8 @@ type FieldSchema struct {
 }
 
 type FieldMetadata struct {
-	CSV        bool     `json:"csv"`
-	ClientJSON bool     `json:"client_json"`
-	SyncModes  []string `json:"sync_modes"`
+	CSV        bool `json:"csv"`
+	ClientJSON bool `json:"client_json"`
 }
 
 func LoadFieldCatalog(path string) (FieldCatalog, error) {
@@ -60,6 +55,9 @@ func LoadFieldCatalog(path string) (FieldCatalog, error) {
 	}
 	if len(catalog.Defs.SnowField.Properties) == 0 {
 		return FieldCatalog{}, fmt.Errorf("field catalog missing $defs.snow_field.properties")
+	}
+	if len(catalog.Properties) == 0 {
+		return FieldCatalog{}, fmt.Errorf("field catalog missing properties")
 	}
 	return catalog, nil
 }
@@ -84,31 +82,6 @@ func (c FieldCatalog) FieldsWithFlag(flag string) []string {
 		}
 	}
 	return fields
-}
-
-func (c FieldCatalog) SyncColumns(schemaMode string) ([]string, string, error) {
-	mode, ok := c.XSnowfield.SyncModes[schemaMode]
-	if !ok {
-		return nil, "", fmt.Errorf("unknown schema mode %q", schemaMode)
-	}
-	if mode.ConflictColumn == "" {
-		return nil, "", fmt.Errorf("schema mode %q must define conflict_column", schemaMode)
-	}
-
-	columns := make([]string, 0)
-	for _, field := range c.orderedFields() {
-		metadata := c.Defs.SnowField.Properties[field].XSnowfield
-		for _, syncMode := range metadata.SyncModes {
-			if syncMode == schemaMode {
-				columns = append(columns, field)
-				break
-			}
-		}
-	}
-	if len(columns) == 0 {
-		return nil, "", fmt.Errorf("schema mode %q has no sync columns", schemaMode)
-	}
-	return columns, mode.ConflictColumn, nil
 }
 
 func (c FieldCatalog) LocalRegions() map[string]map[string]struct{} {

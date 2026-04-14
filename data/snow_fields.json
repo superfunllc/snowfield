@@ -1,7 +1,6 @@
 {
   "$schema": "../schema/snow_fields.schema.json",
   "dataset_name": "snow_fields",
-  "dataset_version": "2026.04.13",
   "schema_version": 2,
   "description": "Canonical Snowpool snow field catalog. This file is the editable source of truth; generated CSV, GeoJSON, and release manifests are derived from it.",
   "records": [

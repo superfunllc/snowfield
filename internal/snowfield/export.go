@@ -42,7 +42,7 @@ func Export(loaded *Loaded, outputDir string, generatedAt string) ([]string, err
 		if err != nil {
 			return nil, err
 		}
-		if err := writeManifest(manifestPath, loaded.Dataset, variant, generatedAt, len(rows), geocodedRowCount, csvPath, geoJSONPath, clientJSONPath); err != nil {
+		if err := writeManifest(manifestPath, loaded.Dataset, loaded.DatasetHash, variant, generatedAt, len(rows), geocodedRowCount, csvPath, geoJSONPath, clientJSONPath); err != nil {
 			return nil, err
 		}
 
@@ -154,7 +154,7 @@ func writeGeoJSON(path string, rows []Record, propertyFields []string) (int, err
 	return len(features), nil
 }
 
-func writeManifest(path string, dataset Dataset, variant string, generatedAt string, rowCount int, geocodedRowCount int, csvPath string, geoJSONPath string, clientJSONPath string) error {
+func writeManifest(path string, dataset Dataset, datasetVersion string, variant string, generatedAt string, rowCount int, geocodedRowCount int, csvPath string, geoJSONPath string, clientJSONPath string) error {
 	csvSHA, err := fileSHA256(csvPath)
 	if err != nil {
 		return err
@@ -170,7 +170,6 @@ func writeManifest(path string, dataset Dataset, variant string, generatedAt str
 
 	manifest := map[string]any{
 		"dataset_name":       dataset.DatasetName,
-		"dataset_version":    dataset.DatasetVersion,
 		"schema_version":     dataset.SchemaVersion,
 		"variant":            variant,
 		"generated_at":       generatedAt,
@@ -195,6 +194,7 @@ func writeManifest(path string, dataset Dataset, variant string, generatedAt str
 			},
 		},
 	}
+	manifest["dataset_version"] = datasetVersion
 	return writeJSONFile(path, manifest)
 }
 

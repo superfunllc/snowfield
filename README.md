@@ -16,6 +16,8 @@ make validate
 make export
 ```
 
+Use `make export-dev` to generate artifacts with a current UTC `generated_at` timestamp.
+
 Generated files are written to `dist/`:
 
 - `snow_fields.full.csv`
@@ -59,9 +61,8 @@ Identity rules:
 
 Versioning rules:
 
-- Use date-based dataset versions: `YYYY.MM.DD` or `YYYY.MM.DD-suffix`.
-- `schema_version` is separate from `dataset_version`.
-- Bump `schema_version` only when the dataset contract changes in a breaking way.
+- Release manifests always include `dataset_version` as the SHA-256 content hash of `data/snow_fields.json`. Do not edit `dataset_version` into the canonical JSON.
+- `schema_version` tracks the dataset contract independently. Bump it only when the contract changes in a breaking way.
 
 Required fields are defined by `schema/snow_fields.schema.json` under `$defs.snow_field.required`. The same schema is also the shared field catalog for the Go CLI. Its `x-snowfield` metadata controls:
 
