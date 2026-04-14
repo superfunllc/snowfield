@@ -16,6 +16,8 @@ make validate
 make export
 ```
 
+Use `make export-dev` to generate artifacts with a current UTC `generated_at` timestamp.
+
 Generated files are written to `dist/`:
 
 - `snow_fields.full.csv`
